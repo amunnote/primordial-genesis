@@ -1,0 +1,1 @@
+{"parent":"primordial:known/root","display":{"icon":{"item":"primordial:angel_charm"},"title":{"translate":"alchemy_recipe.primordial.angel_charm"},"description":{"translate":"advancements.primordial.known.description"},"frame":"challenge","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"known":{"trigger":"minecraft:impossible"}}}

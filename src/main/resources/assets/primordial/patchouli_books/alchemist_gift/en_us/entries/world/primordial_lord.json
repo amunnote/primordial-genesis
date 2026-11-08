@@ -1,0 +1,40 @@
+{
+  "name": "The Primordial Lord",
+  "icon": "primordial:primordial_sigil",
+  "category": "primordial:world",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Primordial Temple",
+      "text": "The Primordial Lord rests in the Spirit Realm temple above (0, 0), around Y=180. Entry requires only all seven Sin Lords, killed or witnessed within 64 blocks; Four Symbols records are unrelated. The gate north of arrival leads up, and the south temple gate returns you. After defeating the Lord, visit the Court of Truth."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "[Primordial]",
+      "text": "The Primordial Lord bears $(l)[Primordial]$(): every ordinary affix and all seven sins at once.$(br2)Its numbers are its own and do not swell with its affixes; some affixes are measured for it: Damage Cap at 5% of its health per hit, Time back to 20%, Regeneration 0.4% a second, Space 10% a second.$(br2)$(l)Affix accessories work as always$(): whichever you wear, that affix is ignored. Bring the ones you most want gone."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "I: Manifestation",
+      "text": "1500 health, 20 armor.$(li)$(l)Judgement Blade$(): a three-blow combo, the last throwing you up$(li)$(l)Primordial Circle$(): an 8-block circle at its feet that bursts after 2 seconds$(li)$(l)Borrowed Sin$(): its halo lights in one colour, then it uses that lord's signature: Pride's gates, Wrath's charge, Envy's backstab, Greed's gold rain, Lust's butterflies, Gluttony's pull, Sloth's slumber"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "II: Seven as One",
+      "text": "At 60% it rises over the throne and raises seven $(l)Sin Pillars$() round the arena:$(li)while any stands it takes half harm and rains judgement below$(li)each pillar looses its sin on whoever is near now and then$(li)$(l)breaking a pillar strikes that sin off it for good$()$(br)When all are broken, after 60 seconds, or at 25% health, the rest collapse and the last phase begins."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "III: Return to the Origin",
+      "text": "Its halo shatters and it comes down, faster and harder, every affix still on.$(br2)$(l)Genesis$(): every 30 seconds a great circle opens over the temple and counts down five seconds while three green $(l)safe circles$() light up; anyone outside them takes 40% of their max health.$(br2)It has two more lives, $(l)Undying$() (15%) and $(l)Time$() (20%), once each, warded by their accessories. At 30% it casts off two short-lived $(l)echoes$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:primordial_heart",
+      "link_recipe": false,
+      "title": "After the Fight",
+      "text": "It drops the $(l)Primordial Heart$(), two $(l)Divinity Shards$(), one of each sin's material, the $(l)Ascension Charm$()'s recipe and alchemy recipes.$(br2)Sages present learn the $(l)Primordial Sigil$(): the heart, the seven sigils and an essence of truth, at a primordial altar.$(br2)It leaves a statue where it falls; right-click it with the sigil to call the lord back."
+    }
+  ]
+}

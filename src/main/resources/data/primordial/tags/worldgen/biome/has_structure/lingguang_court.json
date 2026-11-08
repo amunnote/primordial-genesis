@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "primordial:zhuque_sun_fields",
+    "#minecraft:is_overworld"
+  ]
+}

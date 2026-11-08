@@ -1,0 +1,7 @@
+{
+  "type": "primordial:zhiming_court",
+  "biomes": "#primordial:has_structure/zhiming_court",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

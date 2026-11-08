@@ -1,0 +1,17 @@
+{
+  "name": "Thunder Talisman",
+  "icon": "primordial:thunder_talisman",
+  "category": "primordial:known",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:thunder_talisman",
+      "link_recipe": false,
+      "text": "Tier 1 Alchemy Altar: paper as main material, paper and a Jiao Whisker as ingredients. Requires Thunder Talisman knowledge."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Craft paper with a Jiao Whisker. Aim at a block within 32 blocks and use to call real lightning: consumes one, 5-second cooldown. Sprouting Antlers provide five crop bone-meal attempts; adult deer shed one every 20 minutes."
+    }
+  ]
+}

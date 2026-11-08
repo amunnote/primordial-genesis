@@ -1,0 +1,1 @@
+{"name":"始源宝珠","icon":"primordial:origin_orb","category":"primordial:known","sortnum":28,"advancement":"primordial:known/origin_orb","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:origin_orb","link_recipe":false,"text":"$(l)炼制$()：嬗变炼金仪$(br)$(l)主材料$()：海洋之心$(br2)$(l)其他材料$()$(li)炼金源锭 ×8$(li)熔核凝胶 ×2"}]}

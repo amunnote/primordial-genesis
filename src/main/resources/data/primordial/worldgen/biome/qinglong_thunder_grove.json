@@ -1,0 +1,113 @@
+{
+   "temperature" : 0.7,
+   "has_precipitation" : true,
+   "downfall" : 0.95,
+   "spawn_costs" : {
+      "primordial:thunder_jiao" : {
+         "charge" : 0.6,
+         "energy_budget" : 0.12
+      }
+   },
+   "effects" : {
+      "grass_color" : 2797129,
+      "particle" : {
+         "probability" : 0.004,
+         "options" : {
+            "type" : "minecraft:electric_spark"
+         }
+      },
+      "water_color" : 3051919,
+      "foliage_color" : 1943623,
+      "fog_color" : 10736322,
+      "mood_sound" : {
+         "offset" : 2,
+         "tick_delay" : 6000,
+         "sound" : "minecraft:ambient.cave",
+         "block_search_extent" : 8
+      },
+      "water_fog_color" : 1454664,
+      "music" : {
+         "sound" : "minecraft:music.overworld.jungle",
+         "max_delay" : 24000,
+         "replace_current_music" : false,
+         "min_delay" : 12000
+      },
+      "additions_sound" : {
+         "tick_chance" : 0.0004,
+         "sound" : "minecraft:item.trident.thunder"
+      },
+      "sky_color" : 6929855
+   },
+   "carvers" : {
+      "air" : [
+         "minecraft:cave",
+         "minecraft:cave_extra_underground",
+         "minecraft:canyon"
+      ]
+   },
+   "features" : [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+         "primordial:grove_copper_ore"
+      ],
+      [],
+      [
+         "primordial:dragon_spine",
+         "primordial:cloudrock_layer",
+         "primordial:copper_spire",
+         "primordial:floating_rock",
+         "primordial:struck_elder",
+         "primordial:thunder_altar"
+      ],
+      [
+         "primordial:grove_giant_oak",
+         "minecraft:patch_grass_jungle",
+         "minecraft:vines",
+         "primordial:grove_undergrowth"
+      ],
+      []
+   ],
+   "spawners" : {
+      "ambient" : [
+         {
+            "minCount" : 1,
+            "type" : "minecraft:bat",
+            "weight" : 2,
+            "maxCount" : 2
+         },
+         {
+            "type" : "primordial:thunder_firefly",
+            "minCount" : 3,
+            "weight" : 12,
+            "maxCount" : 6
+         }
+      ],
+      "monster" : [
+         {
+            "type" : "primordial:thunder_jiao",
+            "minCount" : 1,
+            "maxCount" : 1,
+            "weight" : 5
+         }
+      ],
+      "creature" : [
+         {
+            "maxCount" : 3,
+            "weight" : 12,
+            "minCount" : 2,
+            "type" : "primordial:verdant_antler_deer"
+         },
+         {
+            "weight" : 2,
+            "maxCount" : 2,
+            "type" : "minecraft:parrot",
+            "minCount" : 1
+         }
+      ]
+   }
+}

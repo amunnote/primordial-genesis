@@ -1,0 +1,1 @@
+{"name":"暴怒","icon":"primordial:seething_copper_heart","category":"primordial:boss_affixes","sortnum":4,"advancement":"primordial:affix/wrath","pages":[{"type":"patchouli:text","text":"$(#e63248)【暴怒】$()$(br2)每损失 10% 的生命，攻击 +10%、护甲 +10。"},{"type":"patchouli:spotlight","item":"primordial:seething_copper_heart","link_recipe":false,"text":"$(l)掉落素材$()$(br2)$(o)受到刺激时持续积累热量与力量。$()"}]}

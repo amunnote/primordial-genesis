@@ -1,0 +1,1 @@
+{"name":"真理源质","icon":"primordial:truth_essence","category":"primordial:known","sortnum":46,"advancement":"primordial:known/truth_essence","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:truth_essence","link_recipe":false,"text":"$(l)炼制$()：嬗变炼金仪$(br)$(l)主材料$()：嬗变之源$(br2)$(l)其他材料$()$(li)附魔书 ×7$(li)符焰之芯 ×1"}]}

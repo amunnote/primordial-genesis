@@ -1,0 +1,13 @@
+{
+  "name": "精金锭",
+  "icon": "primordial:fine_gold_ingot",
+  "category": "primordial:known",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:fine_gold_ingot",
+      "link_recipe": false,
+      "text": "一级炼金祭坛：铁锭为主材，四份精金碎屑为辅材；需习得精金锭知识。精金碎屑由庚金刃灵掉落。"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "__comment": "Inventory shows the 2D pixel-art icon; hands, ground, item frames and head use the 3D model.",
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "textures": {"particle": "primordial:item/gem_sword"},
+  "base": {"parent": "primordial:item/gem_sword_hand"},
+  "perspectives": {
+    "gui": {"parent": "primordial:item/gem_sword_icon"}
+  }
+}

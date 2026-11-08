@@ -1,0 +1,17 @@
+{
+  "type": "primordial:altar",
+  "knowledge": "primordial:kindling_talisman",
+  "tier": 1,
+  "main": {
+    "item": "minecraft:paper"
+  },
+  "ingredients": [
+    {
+      "item": "primordial:ember_feather"
+    }
+  ],
+  "result": {
+    "item": "primordial:kindling_talisman",
+    "count": 1
+  }
+}

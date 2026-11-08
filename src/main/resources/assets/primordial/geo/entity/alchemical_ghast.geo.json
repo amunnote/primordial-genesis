@@ -1,0 +1,39 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.alchemical_ghast",
+				"texture_width": 128,
+				"texture_height": 64,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 6,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{"name": "root", "pivot": [0, 0, 0]},
+				{"name": "body", "parent": "root", "pivot": [0, 10, 0], "cubes": [{"origin": [-6, 4, -6], "size": [12, 12, 12], "uv": [0, 0]}, {"origin": [-6.5, 8, -6.5], "size": [13, 2, 13], "uv": [0, 24]}, {"origin": [-2, 11, -6.6], "size": [4, 3, 1], "uv": [24, 45]}, {"origin": [-3, 14, -6.8], "size": [6, 1, 1], "uv": [96, 49]}, {"origin": [-3, 10, -6.8], "size": [6, 1, 1], "uv": [110, 49]}, {"origin": [-3, 11, -6.8], "size": [1, 3, 1], "uv": [34, 45]}, {"origin": [2, 11, -6.8], "size": [1, 3, 1], "uv": [38, 45]}, {"origin": [-4.5, 16, 1], "size": [2, 3, 2], "uv": [32, 39]}, {"origin": [-5, 16, 0.5], "size": [3, 1, 3], "uv": [114, 39]}, {"origin": [-1, 16, -1], "size": [2, 5, 2], "uv": [52, 24]}, {"origin": [-1.5, 16, -1.5], "size": [3, 1, 3], "uv": [0, 45]}, {"origin": [2.5, 16, 1], "size": [2, 3, 2], "uv": [40, 39]}, {"origin": [2, 16, 0.5], "size": [3, 1, 3], "uv": [12, 45]}]},
+				{"name": "maw", "parent": "body", "pivot": [0, 8, -6], "cubes": [{"origin": [-4, 5, -6.7], "size": [8, 3, 1], "uv": [96, 39]}, {"origin": [-4.5, 4.5, -6.9], "size": [9, 1, 1], "uv": [76, 49]}]},
+				{"name": "ring", "parent": "body", "pivot": [0, 10, 0], "cubes": [{"origin": [-9, 9.5, -10], "size": [18, 1, 1], "uv": [0, 49]}, {"origin": [-9, 9.5, 9], "size": [18, 1, 1], "uv": [38, 49]}, {"origin": [-10, 9.5, -9], "size": [1, 1, 18], "uv": [48, 0]}, {"origin": [9, 9.5, -9], "size": [1, 1, 18], "uv": [86, 0]}, {"origin": [-10, 9, -10], "size": [1, 2, 1], "uv": [42, 45]}, {"origin": [9, 9, -10], "size": [1, 2, 1], "uv": [46, 45]}, {"origin": [-10, 9, 9], "size": [1, 2, 1], "uv": [50, 45]}, {"origin": [9, 9, 9], "size": [1, 2, 1], "uv": [54, 45]}]},
+				{"name": "tendril0", "parent": "body", "pivot": [-3.5, 4, -3.5], "cubes": [{"origin": [-4.5, -1, -4.5], "size": [2, 5, 2], "uv": [60, 24]}]},
+				{"name": "tendril0_tip", "parent": "tendril0", "pivot": [-3.5, -1, -3.5], "cubes": [{"origin": [-4.5, -6, -4.5], "size": [2, 5, 2], "uv": [68, 24]}, {"origin": [-4, -8, -4], "size": [1, 2, 1], "uv": [58, 45]}]},
+				{"name": "tendril1", "parent": "body", "pivot": [-3.5, 4, 0], "cubes": [{"origin": [-4.5, 1, -1], "size": [2, 3, 2], "uv": [48, 39]}]},
+				{"name": "tendril1_tip", "parent": "tendril1", "pivot": [-3.5, 1, 0], "cubes": [{"origin": [-4.5, -2, -1], "size": [2, 3, 2], "uv": [56, 39]}, {"origin": [-4, -4, -0.5], "size": [1, 2, 1], "uv": [62, 45]}]},
+				{"name": "tendril2", "parent": "body", "pivot": [-3.5, 4, 3.5], "cubes": [{"origin": [-4.5, 0, 2.5], "size": [2, 4, 2], "uv": [108, 24]}]},
+				{"name": "tendril2_tip", "parent": "tendril2", "pivot": [-3.5, 0, 3.5], "cubes": [{"origin": [-4.5, -4, 2.5], "size": [2, 4, 2], "uv": [116, 24]}, {"origin": [-4, -6, 3], "size": [1, 2, 1], "uv": [66, 45]}]},
+				{"name": "tendril3", "parent": "body", "pivot": [0, 4, -3.5], "cubes": [{"origin": [-1, 1, -4.5], "size": [2, 3, 2], "uv": [64, 39]}]},
+				{"name": "tendril3_tip", "parent": "tendril3", "pivot": [0, 1, -3.5], "cubes": [{"origin": [-1, -2, -4.5], "size": [2, 3, 2], "uv": [72, 39]}, {"origin": [-0.5, -4, -4], "size": [1, 2, 1], "uv": [70, 45]}]},
+				{"name": "tendril4", "parent": "body", "pivot": [0, 4, 0], "cubes": [{"origin": [-1, 0, -1], "size": [2, 4, 2], "uv": [0, 39]}]},
+				{"name": "tendril4_tip", "parent": "tendril4", "pivot": [0, 0, 0], "cubes": [{"origin": [-1, -4, -1], "size": [2, 4, 2], "uv": [8, 39]}, {"origin": [-0.5, -6, -0.5], "size": [1, 2, 1], "uv": [74, 45]}]},
+				{"name": "tendril5", "parent": "body", "pivot": [0, 4, 3.5], "cubes": [{"origin": [-1, -1, 2.5], "size": [2, 5, 2], "uv": [76, 24]}]},
+				{"name": "tendril5_tip", "parent": "tendril5", "pivot": [0, -1, 3.5], "cubes": [{"origin": [-1, -6, 2.5], "size": [2, 5, 2], "uv": [84, 24]}, {"origin": [-0.5, -8, 3], "size": [1, 2, 1], "uv": [78, 45]}]},
+				{"name": "tendril6", "parent": "body", "pivot": [3.5, 4, -3.5], "cubes": [{"origin": [2.5, 0, -4.5], "size": [2, 4, 2], "uv": [16, 39]}]},
+				{"name": "tendril6_tip", "parent": "tendril6", "pivot": [3.5, 0, -3.5], "cubes": [{"origin": [2.5, -4, -4.5], "size": [2, 4, 2], "uv": [24, 39]}, {"origin": [3, -6, -4], "size": [1, 2, 1], "uv": [82, 45]}]},
+				{"name": "tendril7", "parent": "body", "pivot": [3.5, 4, 0], "cubes": [{"origin": [2.5, -1, -1], "size": [2, 5, 2], "uv": [92, 24]}]},
+				{"name": "tendril7_tip", "parent": "tendril7", "pivot": [3.5, -1, 0], "cubes": [{"origin": [2.5, -6, -1], "size": [2, 5, 2], "uv": [100, 24]}, {"origin": [3, -8, -0.5], "size": [1, 2, 1], "uv": [86, 45]}]},
+				{"name": "tendril8", "parent": "body", "pivot": [3.5, 4, 3.5], "cubes": [{"origin": [2.5, 1, 2.5], "size": [2, 3, 2], "uv": [80, 39]}]},
+				{"name": "tendril8_tip", "parent": "tendril8", "pivot": [3.5, 1, 3.5], "cubes": [{"origin": [2.5, -2, 2.5], "size": [2, 3, 2], "uv": [88, 39]}, {"origin": [3, -4, 3], "size": [1, 2, 1], "uv": [90, 45]}]}
+			]
+		}
+	]
+}

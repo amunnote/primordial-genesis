@@ -1,0 +1,1 @@
+{"parent":"primordial:known/root","display":{"icon":{"item":"primordial:spell_annul_charm"},"title":{"translate":"alchemy_recipe.primordial.spell_annul_charm"},"description":{"translate":"advancements.primordial.known.description"},"frame":"task","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"known":{"trigger":"minecraft:impossible"}}}

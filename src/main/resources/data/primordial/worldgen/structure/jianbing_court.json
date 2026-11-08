@@ -1,0 +1,7 @@
+{
+  "type": "primordial:jianbing_court",
+  "biomes": "#primordial:has_structure/jianbing_court",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

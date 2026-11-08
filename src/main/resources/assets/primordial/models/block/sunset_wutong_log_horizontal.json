@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "primordial:block/sunset_wutong_log_top",
+    "side": "primordial:block/sunset_wutong_log"
+  }
+}

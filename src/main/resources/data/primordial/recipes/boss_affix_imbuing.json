@@ -1,0 +1,1 @@
+{"type":"primordial:altar","tier":3,"main":{"type":"primordial:weapon"},"ingredients":[{"tag":"primordial:boss_affix_materials"},{"item":"primordial:truth_essence"},{"item":"primordial:alchemical_source_ingot","count":4},{"item":"primordial:alchemical_essence","count":8}],"imbue":true,"result":{"item":"minecraft:diamond_sword"}}

@@ -1,0 +1,23 @@
+{
+  "parent": "primordial:hunt/trunk_root",
+  "display": {
+    "icon": {
+      "item": "primordial:ironvein_bladestone"
+    },
+    "title": {
+      "translate": "advancements.primordial.hunt.enter_baihu_wastes.title"
+    },
+    "description": {
+      "translate": "advancements.primordial.hunt.enter_baihu_wastes.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "earned": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

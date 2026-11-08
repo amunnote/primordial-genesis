@@ -1,0 +1,13 @@
+{
+  "name": "燎火符",
+  "icon": "primordial:kindling_talisman",
+  "category": "primordial:known",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:kindling_talisman",
+      "link_recipe": false,
+      "text": "一级炼金祭坛：纸为主材，烬羽为辅材；需习得燎火符知识。右键指向32格内方块，在命中面相邻空格生成一格火，消耗一张，冷却3秒。火绒暂作纯材料。"
+    }
+  ]
+}

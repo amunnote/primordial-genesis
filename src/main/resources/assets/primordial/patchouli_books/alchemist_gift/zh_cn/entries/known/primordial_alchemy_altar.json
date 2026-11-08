@@ -1,0 +1,1 @@
+{"name":"原初炼金仪","icon":"primordial:primordial_alchemy_altar","category":"primordial:known","sortnum":0,"advancement":"primordial:known/primordial_alchemy_altar","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:primordial_alchemy_altar","link_recipe":false,"text":"$(l)炼制$()：工作台$(br2)$(l)材料$()$(li)下界之星 ×2$(li)龙蛋 ×1$(li)始源锭 ×3$(li)真理炼金仪 ×1"}]}

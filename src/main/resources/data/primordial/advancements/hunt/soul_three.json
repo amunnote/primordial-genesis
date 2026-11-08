@@ -1,0 +1,1 @@
+{"parent":"primordial:hunt/soul_first","display":{"icon":{"item":"primordial:end_soul"},"title":{"translate":"advancements.primordial.hunt.soul_three.title"},"description":{"translate":"advancements.primordial.hunt.soul_three.description"},"frame":"challenge","show_toast":true,"announce_to_chat":true,"hidden":false},"criteria":{"earned":{"trigger":"minecraft:impossible"}}}

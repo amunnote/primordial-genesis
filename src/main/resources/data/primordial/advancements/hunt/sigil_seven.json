@@ -1,0 +1,1 @@
+{"parent":"primordial:hunt/sigil_first","display":{"icon":{"item":"primordial:primordial_sigil"},"title":{"translate":"advancements.primordial.hunt.sigil_seven.title"},"description":{"translate":"advancements.primordial.hunt.sigil_seven.description"},"frame":"goal","show_toast":true,"announce_to_chat":true,"hidden":false},"criteria":{"earned":{"trigger":"minecraft:impossible"}}}

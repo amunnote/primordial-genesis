@@ -1,0 +1,20 @@
+{
+  "type": "primordial:altar",
+  "knowledge": "primordial:thunder_talisman",
+  "tier": 1,
+  "main": {
+    "item": "minecraft:paper"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "primordial:jiao_whisker"
+    }
+  ],
+  "result": {
+    "item": "primordial:thunder_talisman",
+    "count": 1
+  }
+}

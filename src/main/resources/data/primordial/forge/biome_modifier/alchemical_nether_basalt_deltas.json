@@ -1,0 +1,1 @@
+{"type":"forge:add_spawns","biomes":"minecraft:basalt_deltas","spawners":[{"type":"primordial:alchemical_magma_cube","weight":66,"minCount":2,"maxCount":4},{"type":"primordial:alchemical_ghast","weight":26,"minCount":1,"maxCount":1},{"type":"primordial:alchemical_blaze","weight":8,"minCount":1,"maxCount":2}]}

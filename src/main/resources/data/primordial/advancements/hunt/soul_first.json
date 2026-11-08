@@ -1,0 +1,1 @@
+{"parent":"primordial:hunt/seven_affix_kill","display":{"icon":{"item":"primordial:overworld_soul"},"title":{"translate":"advancements.primordial.hunt.soul_first.title"},"description":{"translate":"advancements.primordial.hunt.soul_first.description"},"frame":"goal","show_toast":true,"announce_to_chat":true,"hidden":false},"criteria":{"earned":{"trigger":"minecraft:impossible"}}}

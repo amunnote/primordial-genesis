@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "primordial:qinglong_thunder_grove",
+    "#minecraft:is_overworld"
+  ]
+}

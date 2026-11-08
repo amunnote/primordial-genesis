@@ -1,0 +1,1 @@
+{"parent":"primordial:forge/study_30","display":{"icon":{"item":"minecraft:bookshelf"},"title":{"translate":"advancements.primordial.forge.study_60.title"},"description":{"translate":"advancements.primordial.forge.study_60.description"},"frame":"goal","show_toast":true,"announce_to_chat":true,"hidden":false},"criteria":{"earned":{"trigger":"minecraft:impossible"}}}

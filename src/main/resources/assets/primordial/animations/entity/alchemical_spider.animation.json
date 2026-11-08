@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.alchemical_spider.idle": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"left_mandible": {"rotation": [0, "math.sin(query.anim_time * 900) * 10", 0]},
+				"right_mandible": {"rotation": [0, "math.sin(query.anim_time * 900 + 180) * 10", 0]},
+				"halo_ring": {"rotation": [0, "query.anim_time * 90", 0], "position": [0, "math.sin(query.anim_time * 90) * 0.6", 0]},
+				"abdomen": {"scale": ["1 + math.sin(query.anim_time * 180) * 0.03", "1 + math.sin(query.anim_time * 180) * 0.04", "1 + math.sin(query.anim_time * 180) * 0.03"]},
+				"head": {"rotation": [0, "math.sin(query.anim_time * 45) * 4", 0]}
+			}
+		},
+		"animation.alchemical_spider.walk": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"right_leg0": {"rotation": [0, "math.sin(query.anim_time * 720) * 18", "(math.cos(query.anim_time * 720 + 0) + 1) * 6"]},
+				"right_leg0_lower": {"rotation": [0, 0, "math.sin(query.anim_time * 720 + 90) * 10"]},
+				"left_leg0": {"rotation": [0, "math.sin(query.anim_time * 720 + 180) * 18", "(math.cos(query.anim_time * 720 + 180) + 1) * -6"]},
+				"left_leg0_lower": {"rotation": [0, 0, "math.sin(query.anim_time * 720 + 270) * 10"]},
+				"right_leg1": {"rotation": [0, "math.sin(query.anim_time * 720 + 180) * 18", "(math.cos(query.anim_time * 720 + 180) + 1) * 6"]},
+				"right_leg1_lower": {"rotation": [0, 0, "math.sin(query.anim_time * 720 + 270) * 10"]},
+				"left_leg1": {"rotation": [0, "math.sin(query.anim_time * 720) * 18", "(math.cos(query.anim_time * 720 + 0) + 1) * -6"]},
+				"left_leg1_lower": {"rotation": [0, 0, "math.sin(query.anim_time * 720 + 90) * 10"]},
+				"right_leg2": {"rotation": [0, "math.sin(query.anim_time * 720) * 18", "(math.cos(query.anim_time * 720 + 0) + 1) * 6"]},
+				"right_leg2_lower": {"rotation": [0, 0, "math.sin(query.anim_time * 720 + 90) * 10"]},
+				"left_leg2": {"rotation": [0, "math.sin(query.anim_time * 720 + 180) * 18", "(math.cos(query.anim_time * 720 + 180) + 1) * -6"]},
+				"left_leg2_lower": {"rotation": [0, 0, "math.sin(query.anim_time * 720 + 270) * 10"]},
+				"right_leg3": {"rotation": [0, "math.sin(query.anim_time * 720 + 180) * 18", "(math.cos(query.anim_time * 720 + 180) + 1) * 6"]},
+				"right_leg3_lower": {"rotation": [0, 0, "math.sin(query.anim_time * 720 + 270) * 10"]},
+				"left_leg3": {"rotation": [0, "math.sin(query.anim_time * 720) * 18", "(math.cos(query.anim_time * 720 + 0) + 1) * -6"]},
+				"left_leg3_lower": {"rotation": [0, 0, "math.sin(query.anim_time * 720 + 90) * 10"]},
+				"body": {"rotation": ["math.sin(query.anim_time * 1440) * 2", 0, "math.sin(query.anim_time * 720) * 2"]},
+				"halo_ring": {"rotation": [0, "query.anim_time * 720", 0]},
+				"left_mandible": {"rotation": [0, "math.sin(query.anim_time * 1440) * 8", 0]},
+				"right_mandible": {"rotation": [0, "math.sin(query.anim_time * 1440 + 180) * 8", 0]}
+			}
+		},
+		"animation.alchemical_spider.attack": {
+			"animation_length": 0.45,
+			"bones": {
+				"head": {"rotation": {"0": [0, 0, 0], "0.15": [-15, 0, 0], "0.45": [0, 0, 0]}},
+				"left_mandible": {"rotation": {"0": [0, 0, 0], "0.12": [0, -35, 0], "0.3": [0, 10, 0], "0.45": [0, 0, 0]}},
+				"right_mandible": {"rotation": {"0": [0, 0, 0], "0.12": [0, 35, 0], "0.3": [0, -10, 0], "0.45": [0, 0, 0]}}
+			}
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Four Symbols · Overworld Realms",
+  "icon": "primordial:baihu_sigil",
+  "category": "primordial:world",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Four Guardians",
+      "text": "The Four Symbols form an independent Overworld quest with no entry prerequisites. The main path is Seven Sins → Primordial Temple → Court of Truth.$(br2)Seek Qinglong at Mengzhang Court in warm, humid mountain groves 1600 to 3200 blocks east. Select Qinglong on the guide places page and track its nearest court with the Spirit Compass. Across dimensions only textual directions are available. Seek Baihu at Jianbing Court in the cool, dry Blade Wastes 1600 to 3200 blocks west; select Baihu on the places page to track it. Seek Zhuque at Lingguang Sun Valley in the warm, dry Sun Fields 1600 to 3200 blocks south; select Zhuque to track it with the Spirit Compass. Seek Xuanwu at Zhiming Reef in the cold deep Tide Sea 1600 to 3200 blocks north; select Xuanwu to track it with the Spirit Compass.$(br2)Each court holds one resting boss for its lifetime. Death is permanent: no statue or revival, sigils are trophies. Groves and their creatures may appear in the Spirit Realm, but courts and bosses do not. Existing old-terrace bosses can be defeated once."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Blade Wastes",
+      "text": "Cool dry plateaus hold leaning blade stones and parallel claw marks. Wraiths charge for 0.8 seconds before a straight dash, then recover. Neutral tigers defend their kin.$(br2)Refine four fine gold shards and an iron ingot at a tier-one altar. White-striped pelts are materials for future equipment."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Baihu",
+      "text": "1400 health, only 4 armor, 22 melee.$(li)$(l)Killing Intent$(): +6% damage per blow landed (10 stacks, 20 enraged); it ebbs after 5 seconds without a hit, and is $(l)lost whole on a missed pounce$()$(li)$(l)Pounce$(): it crouches, marks its landing and leaps: 24; it pants a moment after. Enraged, three in a row$(li)$(l)Rending Claws$(): three red rakes ahead, 16 each, bleeding$(li)$(l)Roar$(): a 14-block cone that weakens, slows and throws back$(li)$(l)Blade Storm$(): the blades on its back rise, aim and fly"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Baihu's Openings",
+      "text": "It has almost no armor: it takes 20% more harm, and $(l)50% more again while it pants$().$(br2)Get clear of the red mark: a missed pounce wipes its killing intent and leaves the longest pant.$(br2)Let it keep landing blows and its intent climbs; the longer the fight, the deadlier."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Xuanwu",
+      "text": "3200 health and only 10 melee, but very hard to bring down.$(li)$(l)Dark Shell$(): only blows within the arc its head faces deal full harm; the shell takes 25%$(li)$(l)Withdrawal$(): at 75%, 50% and 25% it hides in its shell for 8 seconds, taking almost nothing and healing 1% a second. Every blow cracks it; 220 harm of cracks $(l)breaks it open$(): stunned 5 seconds, double harm from all sides$(li)$(l)The Serpent$() coiled on its shell bites whoever is near every 3 seconds, twice as often while it hides: behind it is no safer"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Xuanwu's Arts",
+      "text": "$(li)$(l)Serpent Strike$(): a long lunge, 16 and poison, dragging you to its jaws$(li)$(l)Dark Geysers$(): a ring of water under everyone, then a geyser, 12 and thrown up$(li)$(l)Stomp$(): it rears and stamps, a 9-block quake$(li)$(l)Frost Tide$() (enraged): a ring of frost rolls out from it; anyone on the ground as it passes is frozen. $(l)Jump$() as it comes"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Qinglong",
+      "text": "2000 health, 8 armor. It will not stand and fight: it $(l)rides the wind$() round its court and strikes with thunder from above.$(li)$(l)On the Wind$(): it takes 30% less while it flies$(li)$(l)Spent$(): every 20 seconds of flight it must come down for 6, taking $(l)50% more$(); only then does it bite$(li)$(l)Spring Thunder$() (enraged): it heals 0.4% a second while flying, and circles faster"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Qinglong's Arts",
+      "text": "$(li)$(l)Thunder Breath$(): a beam of lightning it drags after you for 2 seconds, 5 every fifth of a second, and slowing$(li)$(l)Thunderstorm$(): rings under and round everyone, then bolts, 12 each and thrown up (more once enraged)$(li)$(l)Binding Wood$(): vines hold one still for 3 seconds, 3 a second$(li)$(l)Dive$(): it marks a spot and falls on it, 18 and thrown up. $(l)It lies spent 3 seconds after$(): dodge, then strike$(br2)$(l)Drops$(): Azure Dragon Scales, its sigil and the $(l)Irregular Crystal$() recipe."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Zhuque",
+      "text": "1800 health, 6 armor, immune to fire. It hangs in the air and burns everything below.$(li)$(l)Burning Body$(): whoever strikes it in reach catches fire; all its fire does 20% more to anyone $(l)already burning$()$(li)$(l)Rebirth$(): the first time it falls it becomes an $(l)egg of fire$() with 25% health, still for 10 seconds. Break the egg and it is dead; fail and it is $(l)reborn$() with 50%, enraged, in a burst of flame$(br)Save everything you have for the egg."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Zhuque's Arts",
+      "text": "$(li)$(l)Feathers of Burning Sky$(): marks light in a ring round its prey, then burning feathers fall, 9 each and set alight$(li)$(l)Wing Sweep$(): it swoops low along a line, 14 and alight, leaving a trail of fire for 5 seconds$(li)$(l)Phoenix Cry$(): 6 within 10 blocks, thrown back and set alight, $(l)fire resistance stripped$(); it heals 5%$(li)$(l)Blazing Sun$() (enraged): it rises over the court and gathers a sun that falls 3 seconds later: within 14 blocks, the nearer the worse, up to 30. $(l)Run$()$(br2)$(l)Drops$(): Vermilion Bird Feathers, its sigil and the $(l)Primordial Hilt$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Zhuque: Sun Fields",
+      "text": "In the south, Lingguang Sun Valley is carved into red hills. One resting Zhuque occupies the sun-disc centre; after its death this court stays empty. Crows circle and dive in daylight; timid rats shelter at cave mouths and roots. Paper and an ember feather make a Kindling Talisman at a tier-one altar. The biome and both creatures can appear in the Spirit Realm; courts and bosses generate only in the Overworld."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Xuanwu Tide Sea",
+      "text": "Cold deep seas contain turtleback reefs, ice spires and shell rock. Extra deepslate lapis approximates cold jade. Zhiming Reef has a drained disc for land combat. Serpents spawn day and night, pursue briefly ashore, then seek water; they may crawl on Spirit islands. Turtles withdraw for four seconds after a hit, stop moving and take 60% less damage. Serpents drop 1–2 Xuan Scales and rarely an ender pearl as a tide-pearl substitute. Turtles have a 20% shell drop and 35% scute drop. At a tier-one altar combine paper and a scale into a Tide Ward Talisman. Right-click consumes it for three minutes of Water Breathing and Night Vision."
+    }
+  ]
+}

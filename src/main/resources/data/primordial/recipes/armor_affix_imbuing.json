@@ -1,0 +1,1 @@
+{"type":"primordial:altar","tier":2,"main":{"type":"primordial:armor"},"ingredients":[{"tag":"primordial:affix_materials"},{"item":"primordial:alchemical_source_ingot","count":2},{"item":"primordial:alchemical_source_string","count":2},{"item":"primordial:alchemical_essence","count":2}],"imbue":true,"result":{"item":"minecraft:iron_chestplate"}}

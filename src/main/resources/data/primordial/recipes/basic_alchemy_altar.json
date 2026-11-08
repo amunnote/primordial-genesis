@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","pattern":["ASA"," G ","GCG"],"key":{"A":{"item":"minecraft:amethyst_shard"},"S":{"item":"primordial:alchemical_essence"},"G":{"item":"minecraft:gold_block"},"C":{"item":"minecraft:crafting_table"}},"result":{"item":"primordial:basic_alchemy_altar"}}

@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.alchemical_skeleton.idle": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"chest": {"rotation": ["math.sin(query.anim_time * 90) * 2", 0, 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 60) * 3", 0, "math.sin(query.anim_time * 45) * 5"]},
+				"jaw": {"rotation": ["5 + math.sin(query.anim_time * 600) * 5", 0, 0]},
+				"astrolabe": {"rotation": [0, 0, "query.anim_time * 90"]},
+				"astrolabe_inner": {"rotation": [0, 0, "query.anim_time * -180"]},
+				"quiver": {"position": [0, "math.sin(query.anim_time * 90) * 0.6", 0]},
+				"cape": {"rotation": ["math.sin(query.anim_time * 90) * 4", 0, 0]},
+				"right_arm": {"rotation": ["math.sin(query.anim_time * 90) * 4", 0, 0]},
+				"left_arm": {"rotation": ["math.sin(query.anim_time * 90 + 180) * 4", 0, 0]}
+			}
+		},
+		"animation.alchemical_skeleton.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_thigh": {"rotation": ["math.sin(query.anim_time * 360) * 28", 0, 0]},
+				"left_thigh": {"rotation": ["math.sin(query.anim_time * 360 + 180) * 28", 0, 0]},
+				"right_shin": {"rotation": ["10 + math.sin(query.anim_time * 360 + 90) * 18", 0, 0]},
+				"left_shin": {"rotation": ["10 + math.sin(query.anim_time * 360 + 270) * 18", 0, 0]},
+				"right_arm": {"rotation": ["math.sin(query.anim_time * 360 + 180) * 20", 0, 0]},
+				"left_arm": {"rotation": ["math.sin(query.anim_time * 360) * 20", 0, 0]},
+				"chest": {"rotation": ["math.sin(query.anim_time * 720) * 3", "math.sin(query.anim_time * 360) * 5", 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 720 + 90) * 4", 0, 0]},
+				"astrolabe": {"rotation": [0, 0, "query.anim_time * 360"]},
+				"astrolabe_inner": {"rotation": [0, 0, "query.anim_time * -720"]},
+				"cape": {"rotation": ["14 + math.sin(query.anim_time * 720) * 8", 0, 0]},
+				"quiver": {"position": [0, "math.sin(query.anim_time * 720) * 0.6", 0]}
+			}
+		},
+		"animation.alchemical_skeleton.attack": {
+			"animation_length": 0.4,
+			"bones": {
+				"right_arm": {"rotation": {"0": [0, 0, 0], "0.14": [-130, 15, 0], "0.4": [-10, 0, 0]}}
+			}
+		},
+		"animation.alchemical_skeleton.aim": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_arm": {"rotation": [-90, -8, 0]},
+				"left_arm": {"rotation": [-90, 28, 0]},
+				"right_forearm": {"rotation": [0, 0, 0]},
+				"left_forearm": {"rotation": [0, 0, 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 720) * 1", 0, 0]},
+				"astrolabe": {"rotation": [0, 0, "query.anim_time * 720"], "scale": [1.15, 1.15, 1.15]}
+			}
+		}
+	}
+}

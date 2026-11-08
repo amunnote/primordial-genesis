@@ -1,0 +1,112 @@
+{
+   "downfall" : 0.05,
+   "has_precipitation" : false,
+   "temperature" : 0.25,
+   "features" : [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+         "primordial:wastes_iron_ore"
+      ],
+      [],
+      [
+         "primordial:blade_stones",
+         "primordial:tiger_claw_rift",
+         "primordial:bladestone_outcrop",
+         "primordial:wastes_quartz_vein",
+         "primordial:giant_sword",
+         "primordial:stone_forest",
+         "primordial:sword_grave"
+      ],
+      [
+         "minecraft:patch_dead_bush",
+         "primordial:wastes_dry_grass"
+      ],
+      []
+   ],
+   "spawners" : {
+      "monster" : [
+         {
+            "minCount" : 1,
+            "type" : "primordial:geng_blade_wraith",
+            "weight" : 5,
+            "maxCount" : 1
+         }
+      ],
+      "creature" : [
+         {
+            "weight" : 8,
+            "maxCount" : 3,
+            "type" : "primordial:white_striped_tiger",
+            "minCount" : 2
+         },
+         {
+            "minCount" : 1,
+            "type" : "minecraft:rabbit",
+            "weight" : 2,
+            "maxCount" : 2
+         },
+         {
+            "minCount" : 2,
+            "type" : "primordial:golden_bell_sparrow",
+            "weight" : 10,
+            "maxCount" : 4
+         }
+      ],
+      "ambient" : [
+         {
+            "type" : "minecraft:bat",
+            "minCount" : 1,
+            "weight" : 2,
+            "maxCount" : 2
+         }
+      ]
+   },
+   "carvers" : {
+      "air" : [
+         "minecraft:cave",
+         "minecraft:cave_extra_underground",
+         "minecraft:canyon"
+      ]
+   },
+   "effects" : {
+      "sky_color" : 12109005,
+      "music" : {
+         "replace_current_music" : false,
+         "min_delay" : 12000,
+         "sound" : "minecraft:music.overworld.stony_peaks",
+         "max_delay" : 24000
+      },
+      "additions_sound" : {
+         "sound" : "minecraft:block.chain.place",
+         "tick_chance" : 0.0008
+      },
+      "mood_sound" : {
+         "offset" : 2,
+         "tick_delay" : 6000,
+         "block_search_extent" : 8,
+         "sound" : "minecraft:ambient.cave"
+      },
+      "fog_color" : 13882575,
+      "water_fog_color" : 4741736,
+      "particle" : {
+         "probability" : 0.012,
+         "options" : {
+            "type" : "minecraft:white_ash"
+         }
+      },
+      "grass_color" : 11116657,
+      "foliage_color" : 10064747,
+      "water_color" : 6847628
+   },
+   "spawn_costs" : {
+      "primordial:geng_blade_wraith" : {
+         "energy_budget" : 0.12,
+         "charge" : 0.6
+      }
+   }
+}

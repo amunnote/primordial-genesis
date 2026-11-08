@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "primordial:xuanwu_tide_sea",
+    "#minecraft:is_overworld"
+  ]
+}

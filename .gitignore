@@ -1,0 +1,31 @@
+# Gradle and build output
+.gradle/
+build/
+out/
+*.log
+build-log.txt
+
+# local game runs (worlds, logs, screenshots, configs) for the client, server and game tests
+run-client/
+run-server/
+run-gametest/
+run-*/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# third-party mod jars for local compatibility runs (-PcompatSmoke, -PbwwBiomes ...)
+tools/*
+!tools/art/

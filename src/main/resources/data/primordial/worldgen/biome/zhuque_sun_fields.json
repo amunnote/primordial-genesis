@@ -1,0 +1,107 @@
+{
+   "spawn_costs" : {},
+   "carvers" : {
+      "air" : [
+         "minecraft:cave",
+         "minecraft:cave_extra_underground",
+         "minecraft:canyon"
+      ]
+   },
+   "features" : [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+         "primordial:fields_gold_ore"
+      ],
+      [],
+      [
+         "primordial:sunset_wutong",
+         "primordial:red_earth_knoll",
+         "primordial:sun_sandstone_outcrop",
+         "primordial:shallow_ember_rift",
+         "primordial:lava_rift",
+         "primordial:wutong_shrub",
+         "primordial:fire_altar"
+      ],
+      [
+         "minecraft:patch_dead_bush",
+         "primordial:fields_fire_flowers"
+      ],
+      []
+   ],
+   "spawners" : {
+      "monster" : [
+         {
+            "minCount" : 1,
+            "type" : "primordial:ember_feather_crow",
+            "weight" : 4,
+            "maxCount" : 1
+         },
+         {
+            "type" : "primordial:bifang",
+            "minCount" : 1,
+            "weight" : 2,
+            "maxCount" : 1
+         }
+      ],
+      "creature" : [
+         {
+            "weight" : 10,
+            "maxCount" : 4,
+            "minCount" : 2,
+            "type" : "primordial:ember_tail_rat"
+         },
+         {
+            "type" : "minecraft:rabbit",
+            "minCount" : 1,
+            "maxCount" : 2,
+            "weight" : 2
+         }
+      ],
+      "ambient" : [
+         {
+            "minCount" : 1,
+            "type" : "minecraft:bat",
+            "weight" : 2,
+            "maxCount" : 2
+         }
+      ]
+   },
+   "effects" : {
+      "grass_color" : 14326329,
+      "particle" : {
+         "probability" : 0.006,
+         "options" : {
+            "type" : "minecraft:crimson_spore"
+         }
+      },
+      "foliage_color" : 15234354,
+      "water_color" : 9014360,
+      "mood_sound" : {
+         "block_search_extent" : 8,
+         "sound" : "minecraft:ambient.cave",
+         "offset" : 2,
+         "tick_delay" : 6000
+      },
+      "fog_color" : 15772539,
+      "water_fog_color" : 6771516,
+      "additions_sound" : {
+         "tick_chance" : 0.0015,
+         "sound" : "minecraft:block.fire.ambient"
+      },
+      "music" : {
+         "replace_current_music" : false,
+         "min_delay" : 12000,
+         "max_delay" : 24000,
+         "sound" : "minecraft:music.overworld.badlands"
+      },
+      "sky_color" : 15179884
+   },
+   "temperature" : 1.4,
+   "downfall" : 0.05,
+   "has_precipitation" : false
+}

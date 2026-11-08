@@ -1,0 +1,13 @@
+{
+  "structures": [
+    {
+      "structure": "primordial:mengzhang_court",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "primordial:guardian_seat",
+    "salt": 87213641,
+    "seat": "qinglong"
+  }
+}

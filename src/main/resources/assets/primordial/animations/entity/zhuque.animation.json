@@ -1,0 +1,208 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.zhuque.idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"wing_l": {"rotation": [0, 0, "math.sin(query.anim_time * 180) * 28"]},
+				"wing_l_mid": {"rotation": [0, 0, "math.sin(query.anim_time * 180 + -50) * 14"]},
+				"wing_l_tip": {"rotation": [0, 0, "math.sin(query.anim_time * 180 + -90) * 11.2"]},
+				"wing_r": {"rotation": [0, 0, "math.sin(query.anim_time * 180) * -28"]},
+				"wing_r_mid": {"rotation": [0, 0, "math.sin(query.anim_time * 180 + -50) * -14"]},
+				"wing_r_tip": {"rotation": [0, 0, "math.sin(query.anim_time * 180 + -90) * -11.2"]},
+				"bird": {"position": [0, "math.sin(query.anim_time * 180) * 1.5", 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 90) * 4", "math.sin(query.anim_time * 45) * 10", 0]},
+				"neck": {"rotation": ["math.sin(query.anim_time * 180) * 3", 0, 0]},
+				"crest": {"rotation": ["math.sin(query.anim_time * 180 + 40) * 6", 0, 0]},
+				"tail": {"rotation": ["math.sin(query.anim_time * 180 + 90) * 4", 0, 0]},
+				"plume0": {"rotation": ["math.sin(query.anim_time * 180 + 90) * 3", "math.sin(query.anim_time * 90) * 3.9", 0]},
+				"plume0_tip": {"rotation": ["math.sin(query.anim_time * 180 + 150) * 4", 0, 0]},
+				"plume1": {"rotation": ["math.sin(query.anim_time * 180 + 120) * 3", "math.sin(query.anim_time * 90 + 40) * 3.9", 0]},
+				"plume1_tip": {"rotation": ["math.sin(query.anim_time * 180 + 180) * 4", 0, 0]},
+				"plume2": {"rotation": ["math.sin(query.anim_time * 180 + 150) * 3", "math.sin(query.anim_time * 90 + 80) * 3.9", 0]},
+				"plume2_tip": {"rotation": ["math.sin(query.anim_time * 180 + 210) * 4", 0, 0]},
+				"plume3": {"rotation": ["math.sin(query.anim_time * 180 + 180) * 3", "math.sin(query.anim_time * 90 + 120) * 3.9", 0]},
+				"plume3_tip": {"rotation": ["math.sin(query.anim_time * 180 + 240) * 4", 0, 0]},
+				"plume4": {"rotation": ["math.sin(query.anim_time * 180 + 210) * 3", "math.sin(query.anim_time * 90 + 160) * 3.9", 0]},
+				"plume4_tip": {"rotation": ["math.sin(query.anim_time * 180 + 270) * 4", 0, 0]},
+				"streamer_l": {"rotation": ["math.sin(query.anim_time * 180 + 60) * 4.5", 0, 0]},
+				"streamer_r": {"rotation": ["math.sin(query.anim_time * 180 + 200) * 4.5", 0, 0]}
+			}
+		},
+		"animation.zhuque.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"wing_l": {"rotation": [0, 0, "math.sin(query.anim_time * 360) * 38"]},
+				"wing_l_mid": {"rotation": [0, 0, "math.sin(query.anim_time * 360 + -50) * 19"]},
+				"wing_l_tip": {"rotation": [0, 0, "math.sin(query.anim_time * 360 + -90) * 15.2"]},
+				"wing_r": {"rotation": [0, 0, "math.sin(query.anim_time * 360) * -38"]},
+				"wing_r_mid": {"rotation": [0, 0, "math.sin(query.anim_time * 360 + -50) * -19"]},
+				"wing_r_tip": {"rotation": [0, 0, "math.sin(query.anim_time * 360 + -90) * -15.2"]},
+				"bird": {"position": [0, "math.sin(query.anim_time * 360) * 1.5", 0]},
+				"body": {"rotation": [12, 0, 0]},
+				"head": {"rotation": [-10, 0, 0]},
+				"crest": {"rotation": ["-6 + math.sin(query.anim_time * 360 + 40) * 8", 0, 0]},
+				"tail": {"rotation": ["-4 + math.sin(query.anim_time * 360 + 90) * 6", 0, 0]},
+				"plume0": {"rotation": ["math.sin(query.anim_time * 360 + 90) * 5", "math.sin(query.anim_time * 180) * 6.5", 0]},
+				"plume0_tip": {"rotation": ["math.sin(query.anim_time * 360 + 150) * 6", 0, 0]},
+				"plume1": {"rotation": ["math.sin(query.anim_time * 360 + 120) * 5", "math.sin(query.anim_time * 180 + 40) * 6.5", 0]},
+				"plume1_tip": {"rotation": ["math.sin(query.anim_time * 360 + 180) * 6", 0, 0]},
+				"plume2": {"rotation": ["math.sin(query.anim_time * 360 + 150) * 5", "math.sin(query.anim_time * 180 + 80) * 6.5", 0]},
+				"plume2_tip": {"rotation": ["math.sin(query.anim_time * 360 + 210) * 6", 0, 0]},
+				"plume3": {"rotation": ["math.sin(query.anim_time * 360 + 180) * 5", "math.sin(query.anim_time * 180 + 120) * 6.5", 0]},
+				"plume3_tip": {"rotation": ["math.sin(query.anim_time * 360 + 240) * 6", 0, 0]},
+				"plume4": {"rotation": ["math.sin(query.anim_time * 360 + 210) * 5", "math.sin(query.anim_time * 180 + 160) * 6.5", 0]},
+				"plume4_tip": {"rotation": ["math.sin(query.anim_time * 360 + 270) * 6", 0, 0]},
+				"streamer_l": {"rotation": ["math.sin(query.anim_time * 360 + 60) * 7.5", 0, 0]},
+				"streamer_r": {"rotation": ["math.sin(query.anim_time * 360 + 200) * 7.5", 0, 0]}
+			}
+		},
+		"animation.zhuque.attack": {
+			"animation_length": 0.6,
+			"bones": {
+				"body": {"rotation": {"0": [0, 0, 0], "0.25": [-20, 0, 0], "0.4": [25, 0, 0], "0.6": [0, 0, 0]}},
+				"leg_l": {"rotation": {"0": [0, 0, 0], "0.25": [-60, 0, 0], "0.4": [-80, 0, 0], "0.6": [0, 0, 0]}},
+				"leg_r": {"rotation": {"0": [0, 0, 0], "0.25": [-60, 0, 0], "0.4": [-80, 0, 0], "0.6": [0, 0, 0]}},
+				"head": {"rotation": {"0": [0, 0, 0], "0.35": [20, 0, 0], "0.6": [0, 0, 0]}},
+				"beak": {"rotation": {"0": [0, 0, 0], "0.3": [25, 0, 0], "0.5": [0, 0, 0]}},
+				"wing_l": {"rotation": {"0": [0, 0, 0], "0.25": [0, 0, -40], "0.45": [0, 0, 20], "0.6": [0, 0, 0]}},
+				"wing_r": {"rotation": {"0": [0, 0, 0], "0.25": [0, 0, 40], "0.45": [0, 0, -20], "0.6": [0, 0, 0]}}
+			}
+		},
+		"animation.zhuque.dormant": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"bird": {"position": [0, -7, 0]},
+				"leg_l": {"rotation": [-40, 0, 0]},
+				"leg_r": {"rotation": [-40, 0, 0]},
+				"wing_l": {"rotation": [0, -75, 10]},
+				"wing_l_mid": {"rotation": [0, -15, 0]},
+				"wing_l_tip": {"rotation": [0, -10, 0]},
+				"wing_r": {"rotation": [0, 75, -10]},
+				"wing_r_mid": {"rotation": [0, 15, 0]},
+				"wing_r_tip": {"rotation": [0, 10, 0]},
+				"neck": {"rotation": [15, 0, 0]},
+				"head": {"rotation": [25, 0, 0]},
+				"crest": {"rotation": [15, 0, 0]},
+				"tail": {"rotation": [-10, 0, 0]},
+				"body": {"position": [0, "math.sin(query.anim_time * 90) * 0.3", 0]},
+				"plume0": {"rotation": [-15, 0, 0]},
+				"plume1": {"rotation": [-15, 0, 0]},
+				"plume2": {"rotation": [-15, 0, 0]},
+				"plume3": {"rotation": [-15, 0, 0]},
+				"plume4": {"rotation": [-15, 0, 0]}
+			}
+		},
+		"animation.zhuque.feathers": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"wing_l": {"rotation": [0, 15, "-50 + math.sin(query.anim_time * 360) * 10"]},
+				"wing_l_mid": {"rotation": [0, 0, -10]},
+				"wing_l_tip": {"rotation": [0, 0, -10]},
+				"wing_r": {"rotation": [0, -15, "50 + math.sin(query.anim_time * 360) * -10"]},
+				"wing_r_mid": {"rotation": [0, 0, 10]},
+				"wing_r_tip": {"rotation": [0, 0, 10]},
+				"head": {"rotation": [-15, 0, 0]},
+				"beak": {"rotation": ["10 + math.sin(query.anim_time * 720) * 5", 0, 0]},
+				"bird": {"position": [0, "math.sin(query.anim_time * 360) * 1.5", 0]},
+				"plume0": {"rotation": ["math.sin(query.anim_time * 360 + 90) * 4", "math.sin(query.anim_time * 180) * 5.2", 0]},
+				"plume0_tip": {"rotation": ["math.sin(query.anim_time * 360 + 150) * 4", 0, 0]},
+				"plume1": {"rotation": ["math.sin(query.anim_time * 360 + 120) * 4", "math.sin(query.anim_time * 180 + 40) * 5.2", 0]},
+				"plume1_tip": {"rotation": ["math.sin(query.anim_time * 360 + 180) * 4", 0, 0]},
+				"plume2": {"rotation": ["math.sin(query.anim_time * 360 + 150) * 4", "math.sin(query.anim_time * 180 + 80) * 5.2", 0]},
+				"plume2_tip": {"rotation": ["math.sin(query.anim_time * 360 + 210) * 4", 0, 0]},
+				"plume3": {"rotation": ["math.sin(query.anim_time * 360 + 180) * 4", "math.sin(query.anim_time * 180 + 120) * 5.2", 0]},
+				"plume3_tip": {"rotation": ["math.sin(query.anim_time * 360 + 240) * 4", 0, 0]},
+				"plume4": {"rotation": ["math.sin(query.anim_time * 360 + 210) * 4", "math.sin(query.anim_time * 180 + 160) * 5.2", 0]},
+				"plume4_tip": {"rotation": ["math.sin(query.anim_time * 360 + 270) * 4", 0, 0]},
+				"streamer_l": {"rotation": ["math.sin(query.anim_time * 360 + 60) * 6", 0, 0]},
+				"streamer_r": {"rotation": ["math.sin(query.anim_time * 360 + 200) * 6", 0, 0]}
+			}
+		},
+		"animation.zhuque.sweep": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"body": {"rotation": [25, 0, 0]},
+				"neck": {"rotation": [-10, 0, 0]},
+				"head": {"rotation": [-20, 0, 0]},
+				"wing_l": {"rotation": [0, -45, -5]},
+				"wing_l_mid": {"rotation": [0, -20, 0]},
+				"wing_l_tip": {"rotation": [0, -15, 0]},
+				"wing_r": {"rotation": [0, 45, 5]},
+				"wing_r_mid": {"rotation": [0, 20, 0]},
+				"wing_r_tip": {"rotation": [0, 15, 0]},
+				"leg_l": {"rotation": [30, 0, 0]},
+				"leg_r": {"rotation": [30, 0, 0]},
+				"crest": {"rotation": [-20, 0, 0]},
+				"plume0": {"rotation": [10, "math.sin(query.anim_time * 720) * 3", 0]},
+				"plume1": {"rotation": [10, "math.sin(query.anim_time * 720 + 40) * 3", 0]},
+				"plume2": {"rotation": [10, "math.sin(query.anim_time * 720 + 80) * 3", 0]},
+				"plume3": {"rotation": [10, "math.sin(query.anim_time * 720 + 120) * 3", 0]},
+				"plume4": {"rotation": [10, "math.sin(query.anim_time * 720 + 160) * 3", 0]}
+			}
+		},
+		"animation.zhuque.cry": {
+			"loop": true,
+			"animation_length": 0.8,
+			"bones": {
+				"neck": {"rotation": [-35, 0, 0]},
+				"head": {"rotation": [-30, "math.sin(query.anim_time * 450) * 8", 0]},
+				"beak": {"rotation": ["28 + math.sin(query.anim_time * 900) * 8", 0, 0]},
+				"wing_l": {"rotation": [0, 0, "-35 + math.sin(query.anim_time * 450) * 8"]},
+				"wing_r": {"rotation": [0, 0, "35 + math.sin(query.anim_time * 450) * -8"]},
+				"body": {"rotation": [0, 0, "math.sin(query.anim_time * 900) * 3"]},
+				"crest": {"rotation": [-25, 0, 0]},
+				"plume0": {"rotation": ["math.sin(query.anim_time * 450 + 90) * 6", "math.sin(query.anim_time * 225) * 7.8", 0]},
+				"plume0_tip": {"rotation": ["math.sin(query.anim_time * 450 + 150) * 8", 0, 0]},
+				"plume1": {"rotation": ["math.sin(query.anim_time * 450 + 120) * 6", "math.sin(query.anim_time * 225 + 40) * 7.8", 0]},
+				"plume1_tip": {"rotation": ["math.sin(query.anim_time * 450 + 180) * 8", 0, 0]},
+				"plume2": {"rotation": ["math.sin(query.anim_time * 450 + 150) * 6", "math.sin(query.anim_time * 225 + 80) * 7.8", 0]},
+				"plume2_tip": {"rotation": ["math.sin(query.anim_time * 450 + 210) * 8", 0, 0]},
+				"plume3": {"rotation": ["math.sin(query.anim_time * 450 + 180) * 6", "math.sin(query.anim_time * 225 + 120) * 7.8", 0]},
+				"plume3_tip": {"rotation": ["math.sin(query.anim_time * 450 + 240) * 8", 0, 0]},
+				"plume4": {"rotation": ["math.sin(query.anim_time * 450 + 210) * 6", "math.sin(query.anim_time * 225 + 160) * 7.8", 0]},
+				"plume4_tip": {"rotation": ["math.sin(query.anim_time * 450 + 270) * 8", 0, 0]},
+				"streamer_l": {"rotation": ["math.sin(query.anim_time * 450 + 60) * 9", 0, 0]},
+				"streamer_r": {"rotation": ["math.sin(query.anim_time * 450 + 200) * 9", 0, 0]}
+			}
+		},
+		"animation.zhuque.sun": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"body": {"rotation": [-35, 0, 0]},
+				"neck": {"rotation": [-20, 0, 0]},
+				"head": {"rotation": [-25, 0, 0]},
+				"beak": {"rotation": [15, 0, 0]},
+				"wing_l": {"rotation": [0, 0, "-60 + math.sin(query.anim_time * 180) * 5"]},
+				"wing_l_mid": {"rotation": [0, 0, -15]},
+				"wing_l_tip": {"rotation": [0, 0, -10]},
+				"wing_r": {"rotation": [0, 0, "60 + math.sin(query.anim_time * 180) * -5"]},
+				"wing_r_mid": {"rotation": [0, 0, 15]},
+				"wing_r_tip": {"rotation": [0, 0, 10]},
+				"leg_l": {"rotation": [-20, 0, 0]},
+				"leg_r": {"rotation": [-20, 0, 0]},
+				"bird": {"position": [0, "math.sin(query.anim_time * 180) * 2", 0]},
+				"crest": {"rotation": [-30, 0, 0]},
+				"plume0": {"rotation": [-15, -20, 0]},
+				"plume1": {"rotation": [-15, -10, 0]},
+				"plume2": {"rotation": [-15, 0, 0]},
+				"plume3": {"rotation": [-15, 10, 0]},
+				"plume4": {"rotation": [-15, 20, 0]}
+			}
+		},
+		"animation.zhuque.egg": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"egg": {"scale": ["1 + math.sin(query.anim_time * 360) * 0.04", "1 + math.sin(query.anim_time * 360) * 0.04", "1 + math.sin(query.anim_time * 360) * 0.04"]},
+				"egg_ring": {"rotation": [0, "query.anim_time * 120", 0]}
+			}
+		}
+	}
+}

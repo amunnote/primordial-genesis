@@ -1,0 +1,1 @@
+{"type":"primordial:item_in_chests","conditions":[],"item":"primordial:apprentice_parcel","count":1,"chance":0.12,"tables":["minecraft:chests/village/*","minecraft:chests/simple_dungeon","minecraft:chests/abandoned_mineshaft","minecraft:chests/shipwreck_supply","minecraft:chests/igloo_chest","minecraft:chests/stronghold_crossing"]}

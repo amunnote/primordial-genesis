@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "primordial:alchemical_source_block",
+    "primordial:basic_alchemy_altar",
+    "primordial:transmutation_alchemy_altar",
+    "primordial:truth_alchemy_altar",
+    "primordial:primordial_alchemy_altar",
+    "primordial:primordial_gem_ore",
+    "primordial:coppervein_cloudrock",
+    "primordial:ironvein_bladestone",
+    "primordial:xuanwu_shell_rock"
+  ]
+}

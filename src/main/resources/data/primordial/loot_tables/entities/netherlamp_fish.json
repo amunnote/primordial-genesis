@@ -1,0 +1,1 @@
+{"type":"minecraft:entity","random_sequence":"primordial:entities/netherlamp_fish","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"primordial:netherlamp_sac"}]},{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:bone_meal","weight":1},{"type":"minecraft:empty","weight":3}]}]}

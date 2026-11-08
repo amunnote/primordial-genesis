@@ -1,0 +1,17 @@
+{
+  "type": "primordial:altar",
+  "knowledge": "primordial:tide_ward_talisman",
+  "tier": 1,
+  "main": {
+    "item": "minecraft:paper"
+  },
+  "ingredients": [
+    {
+      "item": "primordial:xuan_scale"
+    }
+  ],
+  "result": {
+    "item": "primordial:tide_ward_talisman",
+    "count": 1
+  }
+}

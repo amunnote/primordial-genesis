@@ -1,0 +1,26 @@
+{
+  "type": "primordial:altar",
+  "knowledge": "primordial:fine_gold_ingot",
+  "tier": 1,
+  "main": {
+    "item": "minecraft:iron_ingot"
+  },
+  "ingredients": [
+    {
+      "item": "primordial:fine_gold_shard"
+    },
+    {
+      "item": "primordial:fine_gold_shard"
+    },
+    {
+      "item": "primordial:fine_gold_shard"
+    },
+    {
+      "item": "primordial:fine_gold_shard"
+    }
+  ],
+  "result": {
+    "item": "primordial:fine_gold_ingot",
+    "count": 1
+  }
+}

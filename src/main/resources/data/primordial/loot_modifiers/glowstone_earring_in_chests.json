@@ -1,0 +1,1 @@
+{"type":"primordial:item_in_chests","conditions":[],"item":"primordial:glowstone_earring","count":1,"chance":0.08,"tables":["minecraft:chests/abandoned_mineshaft","minecraft:chests/simple_dungeon","minecraft:chests/ancient_city","minecraft:chests/shipwreck_treasure","minecraft:chests/buried_treasure","minecraft:chests/underwater_ruin_big"]}

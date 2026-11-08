@@ -1,0 +1,1 @@
+{"parent":"primordial:forge/gem_blade","display":{"icon":{"item":"primordial:gem_sword"},"title":{"translate":"advancements.primordial.forge.gem_sword.title"},"description":{"translate":"advancements.primordial.forge.gem_sword.description"},"frame":"challenge","show_toast":true,"announce_to_chat":true,"hidden":false},"criteria":{"earned":{"trigger":"minecraft:impossible"}}}

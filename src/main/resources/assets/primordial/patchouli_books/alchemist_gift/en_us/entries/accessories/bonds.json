@@ -1,0 +1,93 @@
+{
+   "category" : "primordial:accessories",
+   "icon" : "primordial:causality_accessory",
+   "name" : "Bonds",
+   "pages" : [
+      {
+         "text" : "Wear certain affix accessories together and the $(l)bond$() between them holds, with an effect of its own.$(br2)$(li)What counts: accessories in real slots, and the affixes forged into your main-hand weapon$(li)Order and slot do not matter: every part worn and it holds; take one off and it breaks$(li)Any number of bonds can hold at once$(li)Hold Shift on an accessory to see its bonds; the status screen lists the ones holding$(li)A bond is its own status: milk does not clear it, and Sage's Gift does not change it",
+         "title" : "Bonds",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#E8C860)$(l)Throng$()$(br)Parts: Twin Shadow Crystal, Spirit-Binding Bell, Knot of Shared Fate, Soothing Dew Vial$(br2)30% of the healing you receive is given to your clones too; while a clone stands you take 10% less damage; when a clone falls you heal 2",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#C6D2E0)$(l)Unmoving$()$(br)Parts: Gilded Mirror, Ward-Alloy Amulet, Threshold Sigil, Shockproof Bracer$(br2)Stand still for 2s to settle: your damage cap's per-hit limit drops by another 25% and reflection is +50%; moving ends it at once (the tighter cap does nothing against fixed damage)",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#FF7A50)$(l)Breach$()$(br)Parts: Brute Copper Bangle, Thornpierce Ring, Shieldbreaker Wedge, Riftprism$(br2)Repeated hits on one target build Breach: -3% to its armor and resistances per stack, up to 5 (lost after 5s without a hit); at full stacks your next attack ignores its damage cap",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#A070F0)$(l)Binding$()$(br)Parts: Arcane Pendant, Cursed Amethyst Pendant, Sealing Crystal Ring, Twinfold Insignia$(br2)Your curses and seals last 50% longer; a target carrying your curse takes 20% more magic damage",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#88C8FF)$(l)Heavenbind$()$(br)Parts: Stasis Bell, Latent Thunder Core, Muddled Spiral, Fading Crystal Lens$(br2)Targets you slowed have a 20% chance every 3s to draw down lightning; hitting a desaturated target renews its befuddlement (it turns on nearby monsters for 3s)",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#C050E8)$(l)Naming$()$(br)Parts: Spite Spike, Blood Oath Ring, Resonant Silver Charm, Circlet of Insight$(br2)Malice's chance and length are doubled (40%, 10s); Blood Pact's healing is multiplied by Amplify once more; your aura-like effects reach 2 blocks further",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#FFB040)$(l)Unquenched$()$(br)Parts: Hourglass of Reversal, Sprouting Vine Band, Hourglass of Ruin$(br2)A killing blow does not kill: your health rolls back to what it was 3s ago and a Ruin blast strikes everything within 4 blocks; 5 min cooldown. The only rewind in the mod",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#EBCB69)$(l)Aegis$()$(br)Parts: Ward-Alloy Amulet, Shockproof Bracer, Silencing Quartz Pendant$(br2)A further 8% reduction to all damage (a multiplier of its own); harmful effects and statuses last 30% shorter",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#70E0D0)$(l)Wheel of Fate$()$(br)Parts: Riftprism, Hourglass of Reversal, Chain of Causality$(br2)Falling into the void or a lethal fall takes you back to where you stood about 5s ago (health is not rolled back); 3 min cooldown",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#B8B8C0)$(l)Faded World$()$(br)Parts: Fading Crystal Lens, Lightless Crystal, Muddled Spiral$(br2)Every 4s, enemies within 8 blocks gain a stack of Desaturation; +15% crit chance against desaturated enemies",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#FF5555)$(l)Defiance$()$(br)Parts: Brute Copper Bangle, Sprouting Vine Band, Hourglass of Ruin$(br2)Below 50% health, +15% attack; below 25%, +30% attack and you regrow 1% of your max health every second",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#9B8CFF)$(l)Spacetime$()$(br)Parts: Hourglass of Reversal, Riftprism$(br2)When hit, 10% chance to slip aside and take nothing (a dodge: works on fixed damage too); 5s internal cooldown",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#D08CF0)$(l)Karma$()$(br)Parts: Chain of Causality, Cursed Amethyst Pendant$(br2)Harmful effects and statuses on you last 40% shorter; the potion time cut away is passed as a curse to whatever last hurt you",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#D03040)$(l)Blood for Blood$()$(br)Parts: Gilded Mirror, Blood Oath Ring$(br2)30% of the damage your reflection deals heals you",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#63E68B)$(l)Longevity$()$(br)Parts: Undying Golden Calyx, Regrowth Jade Ring$(br2)Regeneration's overflow healing becomes golden blood (within golden blood's own capacity)",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#8070C0)$(l)Empty Gate$()$(br)Parts: Threshold Sigil, Lightless Crystal$(br2)A single hit above 20% of your max health has a 25% chance to be swallowed whole by the void; 10s cooldown (does nothing against fixed damage)",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#FBE276)$(l)Thunderclap$()$(br)Parts: Latent Thunder Core, Thornpierce Ring$(br2)Lightning you call down adds 2 layers of Armor Shred (-6% armor each, up to 5, for 5s)",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#DF4545)$(l)Embers$()$(br)Parts: Twin Shadow Crystal, Hourglass of Ruin$(br2)Your clones explode when they fall, dealing 50% of your attack to enemies within 3 blocks",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#789AFF)$(l)Spell Body$()$(br)Parts: Arcane Pendant, Silencing Quartz Pendant$(br2)A quarter of your non-physical damage reduction is added to your magic damage",
+         "type" : "patchouli:text"
+      },
+      {
+         "text" : "$(#7FE0FF)$(l)Awakening$()$(br)Parts: Spirit-Binding Bell, Circlet of Insight$(br2)Each clone you call gets one weak blessing at random: Amplify (+20% attack), Regeneration (heals every second) or Strength (+2 attack)",
+         "type" : "patchouli:text"
+      }
+   ],
+   "sortnum" : 5
+}

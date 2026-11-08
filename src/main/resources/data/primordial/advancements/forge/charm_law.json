@@ -1,0 +1,1 @@
+{"parent":"primordial:forge/charm_first","display":{"icon":{"item":"primordial:law_of_arms_charm"},"title":{"translate":"advancements.primordial.forge.charm_law.title"},"description":{"translate":"advancements.primordial.forge.charm_law.description"},"frame":"task","show_toast":true,"announce_to_chat":true,"hidden":false},"criteria":{"earned":{"trigger":"minecraft:impossible"}}}

@@ -1,0 +1,1 @@
+{"name":"词条饰品-无光之晶","icon":"primordial:void_accessory","category":"primordial:known","sortnum":48,"advancement":"primordial:known/void_accessory","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:void_accessory","link_recipe":false,"text":"生物攻击有 10% 概率闪避（首领 5%），成功隐身 2 秒；与护甲、核心闪避相加，佩戴核心共用 3 秒冷却$(br2)$(l)其他材料$()$(li)无光黑晶 ×1$(li)炼金源锭 ×2$(li)幻翼膜 ×1"}]}

@@ -1,0 +1,1 @@
+{"type":"forge:add_spawns","biomes":"minecraft:soul_sand_valley","spawners":[{"type":"primordial:alchemical_wither_skeleton","weight":13,"minCount":2,"maxCount":4},{"type":"primordial:alchemical_ghast","weight":33,"minCount":4,"maxCount":4}]}

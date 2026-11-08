@@ -1,0 +1,1 @@
+{"parent":"primordial:hunt/statue_revive","display":{"icon":{"item":"minecraft:iron_sword"},"title":{"translate":"advancements.primordial.hunt.statue_rematch.title"},"description":{"translate":"advancements.primordial.hunt.statue_rematch.description"},"frame":"goal","show_toast":true,"announce_to_chat":true,"hidden":false},"criteria":{"earned":{"trigger":"minecraft:impossible"}}}

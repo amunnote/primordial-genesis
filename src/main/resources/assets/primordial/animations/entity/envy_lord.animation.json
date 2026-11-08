@@ -1,0 +1,132 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.envy_lord.idle": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"root": {"position": [0, "math.sin(query.anim_time * 90) * 0.6", 0]},
+				"head": {"rotation": ["6 + math.sin(query.anim_time * 45) * 3", "math.sin(query.anim_time * 30) * 10", "math.sin(query.anim_time * 60) * 4"]},
+				"body": {"rotation": ["8 + math.sin(query.anim_time * 90) * 2", 0, 0]},
+				"cloak": {"rotation": ["6 + math.sin(query.anim_time * 90) * 4", 0, 0]},
+				"cloak1": {"rotation": ["6 + math.sin(query.anim_time * 90 + 40) * 6", 0, 0]},
+				"cloak2": {"rotation": ["6 + math.sin(query.anim_time * 90 + 80) * 8", 0, 0]},
+				"hood_peak": {"rotation": ["-25 + math.sin(query.anim_time * 90) * 5", 0, 0]},
+				"right_arm": {"rotation": ["-10 + math.sin(query.anim_time * 90) * 4", 0, 10]},
+				"right_forearm": {"rotation": [-35, 0, 0]},
+				"left_arm": {"rotation": ["-5 + math.sin(query.anim_time * 90 + 90) * 4", 0, -14]},
+				"left_forearm": {"rotation": [-25, 0, 0]},
+				"shards": {"rotation": [0, "query.anim_time * 40", 0]},
+				"tatter0": {"rotation": ["math.sin(query.anim_time * 90) * 6", 0, "math.sin(query.anim_time * 70) * 4"]},
+				"tatter1": {"rotation": ["math.sin(query.anim_time * 90 + 45) * 6", 0, "math.sin(query.anim_time * 70 + 45) * 4"]},
+				"tatter2": {"rotation": ["math.sin(query.anim_time * 90 + 90) * 6", 0, "math.sin(query.anim_time * 70 + 90) * 4"]},
+				"tatter3": {"rotation": ["math.sin(query.anim_time * 90 + 135) * 6", 0, "math.sin(query.anim_time * 70 + 135) * 4"]},
+				"tatter4": {"rotation": ["math.sin(query.anim_time * 90 + 180) * 6", 0, "math.sin(query.anim_time * 70 + 180) * 4"]},
+				"tatter5": {"rotation": ["math.sin(query.anim_time * 90 + 225) * 6", 0, "math.sin(query.anim_time * 70 + 225) * 4"]},
+				"tatter6": {"rotation": ["math.sin(query.anim_time * 90 + 270) * 6", 0, "math.sin(query.anim_time * 70 + 270) * 4"]},
+				"tatter7": {"rotation": ["math.sin(query.anim_time * 90 + 315) * 6", 0, "math.sin(query.anim_time * 70 + 315) * 4"]},
+				"shards2": {"rotation": [0, "query.anim_time * -25", 0]},
+				"eyes": {"rotation": [0, "query.anim_time * 18", 0], "position": [0, "math.sin(query.anim_time * 60) * 1", 0]},
+				"trinkets": {"rotation": ["math.sin(query.anim_time * 120) * 8", 0, "math.sin(query.anim_time * 90) * 5"]}
+			}
+		},
+		"animation.envy_lord.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"shards2": {"rotation": [0, "query.anim_time * -80", 0]},
+				"eyes": {"rotation": [0, "query.anim_time * 60", 0]},
+				"trinkets": {"rotation": ["10 + math.sin(query.anim_time * 720) * 20", 0, 0]},
+				"root": {"position": [0, "1 + math.sin(query.anim_time * 720) * 0.5", 0]},
+				"body": {"rotation": [16, 0, 0]},
+				"right_thigh": {"rotation": ["math.sin(query.anim_time * 360) * 25", 0, 0]},
+				"left_thigh": {"rotation": ["math.sin(query.anim_time * 360 + 180) * 25", 0, 0]},
+				"right_shin": {"rotation": ["15 + math.sin(query.anim_time * 360 + 90) * 15", 0, 0]},
+				"left_shin": {"rotation": ["15 + math.sin(query.anim_time * 360 + 270) * 15", 0, 0]},
+				"right_arm": {"rotation": [30, 0, 15]},
+				"right_forearm": {"rotation": [-20, 0, 0]},
+				"left_arm": {"rotation": ["10 + math.sin(query.anim_time * 360) * 15", 0, -12]},
+				"cloak": {"rotation": [30, 0, 0]},
+				"cloak1": {"rotation": ["15 + math.sin(query.anim_time * 720) * 10", 0, 0]},
+				"cloak2": {"rotation": ["15 + math.sin(query.anim_time * 720 + 60) * 14", 0, 0]},
+				"shards": {"rotation": [0, "query.anim_time * 120", 0]},
+				"tatter0": {"rotation": ["12 + math.sin(query.anim_time * 720) * 14", 0, "math.sin(query.anim_time * 720) * 6"]},
+				"tatter1": {"rotation": ["12 + math.sin(query.anim_time * 720 + 45) * 14", 0, "math.sin(query.anim_time * 720 + 45) * 6"]},
+				"tatter2": {"rotation": ["12 + math.sin(query.anim_time * 720 + 90) * 14", 0, "math.sin(query.anim_time * 720 + 90) * 6"]},
+				"tatter3": {"rotation": ["12 + math.sin(query.anim_time * 720 + 135) * 14", 0, "math.sin(query.anim_time * 720 + 135) * 6"]},
+				"tatter4": {"rotation": ["12 + math.sin(query.anim_time * 720 + 180) * 14", 0, "math.sin(query.anim_time * 720 + 180) * 6"]},
+				"tatter5": {"rotation": ["12 + math.sin(query.anim_time * 720 + 225) * 14", 0, "math.sin(query.anim_time * 720 + 225) * 6"]},
+				"tatter6": {"rotation": ["12 + math.sin(query.anim_time * 720 + 270) * 14", 0, "math.sin(query.anim_time * 720 + 270) * 6"]},
+				"tatter7": {"rotation": ["12 + math.sin(query.anim_time * 720 + 315) * 14", 0, "math.sin(query.anim_time * 720 + 315) * 6"]}
+			}
+		},
+		"animation.envy_lord.attack": {
+			"animation_length": 0.4,
+			"bones": {
+				"right_arm": {"rotation": {"0": [-10, 0, 10], "0.15": [-100, 0, -10], "0.3": [-60, 0, 0], "0.4": [-10, 0, 10]}},
+				"right_forearm": {"rotation": {"0": [-35, 0, 0], "0.15": [10, 0, 0], "0.4": [-35, 0, 0]}},
+				"body": {"rotation": {"0": [8, 0, 0], "0.15": [24, -15, 0], "0.4": [8, 0, 0]}}
+			}
+		},
+		"animation.envy_lord.vanish": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"root": {"position": [0, -3, 0], "scale": ["0.92 + math.sin(query.anim_time * 720) * 0.08", "0.85 + math.sin(query.anim_time * 720) * 0.12", "0.92 + math.sin(query.anim_time * 720) * 0.08"]},
+				"body": {"rotation": [30, 0, 0]},
+				"head": {"rotation": [20, 0, 0]},
+				"right_arm": {"rotation": [-20, 0, 40]},
+				"left_arm": {"rotation": [-20, 0, -40]},
+				"shards": {"rotation": [0, "query.anim_time * 720", 0]},
+				"cloak": {"rotation": [50, 0, 0]},
+				"cloak1": {"rotation": [30, 0, 0]}
+			}
+		},
+		"animation.envy_lord.summon": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_arm": {"rotation": [-150, 0, 30]},
+				"left_arm": {"rotation": [-150, 0, -30]},
+				"right_forearm": {"rotation": [0, 0, 0]},
+				"left_forearm": {"rotation": [0, 0, 0]},
+				"head": {"rotation": [-20, 0, 0]},
+				"body": {"rotation": [-6, 0, 0]},
+				"shards": {"rotation": [0, "query.anim_time * 360", 0], "scale": [1.4, 1.4, 1.4]}
+			}
+		},
+		"animation.envy_lord.usurp": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"left_arm": {"rotation": [-85, -20, 0]},
+				"left_forearm": {"rotation": [-10, 0, 0]},
+				"head": {"rotation": [-6, -15, 0]},
+				"body": {"rotation": [10, 15, 0]},
+				"right_arm": {"rotation": [-20, 0, 20]},
+				"right_forearm": {"rotation": [-40, 0, 0]},
+				"shards": {"rotation": [0, "query.anim_time * 240", 0]}
+			}
+		},
+		"animation.envy_lord.dormant": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"root": {"position": [0, -5, 0]},
+				"right_thigh": {"rotation": [-90, 10, 0]},
+				"left_thigh": {"rotation": [-90, -10, 0]},
+				"right_shin": {"rotation": [100, 0, 0]},
+				"left_shin": {"rotation": [100, 0, 0]},
+				"body": {"rotation": [35, 0, 0]},
+				"head": {"rotation": [25, 0, 0]},
+				"right_arm": {"rotation": [-40, 30, 0]},
+				"left_arm": {"rotation": [-40, -30, 0]},
+				"right_forearm": {"rotation": [-60, 0, 0]},
+				"left_forearm": {"rotation": [-60, 0, 0]},
+				"cloak": {"rotation": [40, 0, 0]},
+				"cloak1": {"rotation": [20, 0, 0]},
+				"shards": {"rotation": [0, "query.anim_time * 15", 0], "scale": [0.6, 0.6, 0.6]}
+			}
+		}
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wrath_lord.idle": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"chest": {"scale": ["1 + math.sin(query.anim_time * 120) * 0.02", "1 + math.sin(query.anim_time * 120) * 0.02", "1 + math.sin(query.anim_time * 120) * 0.02"]},
+				"head": {"rotation": ["math.sin(query.anim_time * 60) * 3", "math.sin(query.anim_time * 40) * 6", 0]},
+				"jaw": {"rotation": ["6 + math.sin(query.anim_time * 120) * 4", 0, 0]},
+				"right_arm": {"rotation": ["-10 + math.sin(query.anim_time * 120) * 3", 0, 12]},
+				"left_arm": {"rotation": ["-10 + math.sin(query.anim_time * 120 + 60) * 3", 0, -12]},
+				"right_forearm": {"rotation": [-30, 0, 0]},
+				"left_forearm": {"rotation": [-30, 0, 0]},
+				"tail": {"rotation": ["-30 + math.sin(query.anim_time * 90) * 6", "math.sin(query.anim_time * 60) * 12", 0]},
+				"tail1": {"rotation": ["-15 + math.sin(query.anim_time * 90 + 40) * 8", 0, 0]},
+				"loin_front": {"rotation": ["math.sin(query.anim_time * 120) * 3", 0, 0]},
+				"loin_back": {"rotation": ["8 + math.sin(query.anim_time * 120 + 30) * 4", 0, 0]},
+				"right_wrist_chain0": {"rotation": ["math.sin(query.anim_time * 90) * 6", 0, "math.sin(query.anim_time * 70) * 5"]},
+				"right_wrist_chain1": {"rotation": ["math.sin(query.anim_time * 90 + 40) * 6", 0, "math.sin(query.anim_time * 70 + 50) * 5"]},
+				"right_wrist_chain2": {"rotation": ["math.sin(query.anim_time * 90 + 80) * 6", 0, "math.sin(query.anim_time * 70 + 100) * 5"]},
+				"right_wrist_chain3": {"rotation": ["math.sin(query.anim_time * 90 + 120) * 6", 0, "math.sin(query.anim_time * 70 + 150) * 5"]},
+				"left_wrist_chain0": {"rotation": ["math.sin(query.anim_time * 90) * 6", 0, "math.sin(query.anim_time * 70) * 5"]},
+				"left_wrist_chain1": {"rotation": ["math.sin(query.anim_time * 90 + 40) * 6", 0, "math.sin(query.anim_time * 70 + 50) * 5"]},
+				"left_wrist_chain2": {"rotation": ["math.sin(query.anim_time * 90 + 80) * 6", 0, "math.sin(query.anim_time * 70 + 100) * 5"]},
+				"left_wrist_chain3": {"rotation": ["math.sin(query.anim_time * 90 + 120) * 6", 0, "math.sin(query.anim_time * 70 + 150) * 5"]},
+				"collar_chain0": {"rotation": ["math.sin(query.anim_time * 90) * 6", 0, "math.sin(query.anim_time * 70) * 5"]},
+				"collar_chain1": {"rotation": ["math.sin(query.anim_time * 90 + 40) * 6", 0, "math.sin(query.anim_time * 70 + 50) * 5"]},
+				"collar_chain2": {"rotation": ["math.sin(query.anim_time * 90 + 80) * 6", 0, "math.sin(query.anim_time * 70 + 100) * 5"]},
+				"right_ankle_chain0": {"rotation": ["math.sin(query.anim_time * 90) * 6", 0, "math.sin(query.anim_time * 70) * 5"]},
+				"right_ankle_chain1": {"rotation": ["math.sin(query.anim_time * 90 + 40) * 6", 0, "math.sin(query.anim_time * 70 + 50) * 5"]},
+				"left_ankle_chain0": {"rotation": ["math.sin(query.anim_time * 90) * 6", 0, "math.sin(query.anim_time * 70) * 5"]},
+				"left_ankle_chain1": {"rotation": ["math.sin(query.anim_time * 90 + 40) * 6", 0, "math.sin(query.anim_time * 70 + 50) * 5"]},
+				"embers": {"rotation": [0, "query.anim_time * 30", 0], "position": [0, "math.sin(query.anim_time * 60) * 1.5", 0]}
+			}
+		},
+		"animation.wrath_lord.walk": {
+			"loop": true,
+			"animation_length": 1.4,
+			"bones": {
+				"embers": {"rotation": [0, "query.anim_time * 60", 0]},
+				"root": {"position": [0, "math.sin(query.anim_time * 514) * 1", 0]},
+				"right_thigh": {"rotation": ["-22 + math.sin(query.anim_time * 257) * 28", 0, 6]},
+				"left_thigh": {"rotation": ["-22 + math.sin(query.anim_time * 257 + 180) * 28", 0, -6]},
+				"right_shin": {"rotation": ["48 + math.sin(query.anim_time * 257 + 90) * 20", 0, 0]},
+				"left_shin": {"rotation": ["48 + math.sin(query.anim_time * 257 + 270) * 20", 0, 0]},
+				"right_arm": {"rotation": ["-10 + math.sin(query.anim_time * 257 + 180) * 22", 0, 12]},
+				"left_arm": {"rotation": ["-10 + math.sin(query.anim_time * 257) * 22", 0, -12]},
+				"body": {"rotation": ["30 + math.sin(query.anim_time * 514) * 3", "math.sin(query.anim_time * 257) * 5", 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 514) * 4", 0, 0]},
+				"tail": {"rotation": [-25, "math.sin(query.anim_time * 257) * 18", 0]},
+				"loin_front": {"rotation": ["-6 + math.sin(query.anim_time * 257) * 12", 0, 0]},
+				"loin_back": {"rotation": ["14 + math.sin(query.anim_time * 257 + 90) * 10", 0, 0]},
+				"right_wrist_chain0": {"rotation": ["6 + math.sin(query.anim_time * 257) * 18", 0, "math.sin(query.anim_time * 257) * 10"]},
+				"right_wrist_chain1": {"rotation": ["6 + math.sin(query.anim_time * 257 + 40) * 18", 0, "math.sin(query.anim_time * 257 + 50) * 10"]},
+				"right_wrist_chain2": {"rotation": ["6 + math.sin(query.anim_time * 257 + 80) * 18", 0, "math.sin(query.anim_time * 257 + 100) * 10"]},
+				"right_wrist_chain3": {"rotation": ["6 + math.sin(query.anim_time * 257 + 120) * 18", 0, "math.sin(query.anim_time * 257 + 150) * 10"]},
+				"left_wrist_chain0": {"rotation": ["6 + math.sin(query.anim_time * 257) * 18", 0, "math.sin(query.anim_time * 257) * 10"]},
+				"left_wrist_chain1": {"rotation": ["6 + math.sin(query.anim_time * 257 + 40) * 18", 0, "math.sin(query.anim_time * 257 + 50) * 10"]},
+				"left_wrist_chain2": {"rotation": ["6 + math.sin(query.anim_time * 257 + 80) * 18", 0, "math.sin(query.anim_time * 257 + 100) * 10"]},
+				"left_wrist_chain3": {"rotation": ["6 + math.sin(query.anim_time * 257 + 120) * 18", 0, "math.sin(query.anim_time * 257 + 150) * 10"]},
+				"collar_chain0": {"rotation": ["6 + math.sin(query.anim_time * 257) * 18", 0, "math.sin(query.anim_time * 257) * 10"]},
+				"collar_chain1": {"rotation": ["6 + math.sin(query.anim_time * 257 + 40) * 18", 0, "math.sin(query.anim_time * 257 + 50) * 10"]},
+				"collar_chain2": {"rotation": ["6 + math.sin(query.anim_time * 257 + 80) * 18", 0, "math.sin(query.anim_time * 257 + 100) * 10"]},
+				"right_ankle_chain0": {"rotation": ["6 + math.sin(query.anim_time * 257) * 18", 0, "math.sin(query.anim_time * 257) * 10"]},
+				"right_ankle_chain1": {"rotation": ["6 + math.sin(query.anim_time * 257 + 40) * 18", 0, "math.sin(query.anim_time * 257 + 50) * 10"]},
+				"left_ankle_chain0": {"rotation": ["6 + math.sin(query.anim_time * 257) * 18", 0, "math.sin(query.anim_time * 257) * 10"]},
+				"left_ankle_chain1": {"rotation": ["6 + math.sin(query.anim_time * 257 + 40) * 18", 0, "math.sin(query.anim_time * 257 + 50) * 10"]}
+			}
+		},
+		"animation.wrath_lord.attack": {
+			"animation_length": 0.6,
+			"bones": {
+				"right_arm": {"rotation": {"0": [-10, 0, 12], "0.25": [-170, 0, 20], "0.45": [-20, 0, 0], "0.6": [-10, 0, 12]}},
+				"right_forearm": {"rotation": {"0": [-30, 0, 0], "0.25": [-60, 0, 0], "0.45": [0, 0, 0], "0.6": [-30, 0, 0]}},
+				"body": {"rotation": {"0": [0, 0, 0], "0.25": [-12, 0, 0], "0.45": [14, 0, 0], "0.6": [0, 0, 0]}},
+				"jaw": {"rotation": {"0": [6, 0, 0], "0.3": [28, 0, 0], "0.6": [6, 0, 0]}}
+			}
+		},
+		"animation.wrath_lord.charge": {
+			"loop": true,
+			"animation_length": 0.7,
+			"bones": {
+				"body": {"rotation": [22, 0, 0]},
+				"head": {"rotation": [-10, 0, 0]},
+				"jaw": {"rotation": [22, 0, 0]},
+				"right_arm": {"rotation": [55, 0, 20]},
+				"left_arm": {"rotation": [55, 0, -20]},
+				"right_forearm": {"rotation": [-10, 0, 0]},
+				"left_forearm": {"rotation": [-10, 0, 0]},
+				"right_thigh": {"rotation": ["-30 + math.sin(query.anim_time * 514) * 40", 0, 6]},
+				"left_thigh": {"rotation": ["-30 + math.sin(query.anim_time * 514 + 180) * 40", 0, -6]},
+				"right_shin": {"rotation": ["40 + math.sin(query.anim_time * 514 + 90) * 30", 0, 0]},
+				"left_shin": {"rotation": ["40 + math.sin(query.anim_time * 514 + 270) * 30", 0, 0]},
+				"root": {"position": [0, "math.sin(query.anim_time * 1028) * 1.5", 0]},
+				"tail": {"rotation": [-50, 0, 0]}
+			}
+		},
+		"animation.wrath_lord.slam": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_arm": {"rotation": {"0": [-170, 0, 25], "0.5": [-175, 0, 30], "0.75": [-20, 0, -10], "1": [-170, 0, 25]}},
+				"left_arm": {"rotation": {"0": [-170, 0, -25], "0.5": [-175, 0, -30], "0.75": [-20, 0, 10], "1": [-170, 0, -25]}},
+				"body": {"rotation": {"0": [-18, 0, 0], "0.5": [-22, 0, 0], "0.75": [36, 0, 0], "1": [-18, 0, 0]}},
+				"jaw": {"rotation": {"0": [10, 0, 0], "0.75": [32, 0, 0], "1": [10, 0, 0]}},
+				"right_forearm": {"rotation": [-15, 0, 0]},
+				"left_forearm": {"rotation": [-15, 0, 0]}
+			}
+		},
+		"animation.wrath_lord.roar": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"head": {"rotation": [-35, 0, 0]},
+				"neck": {"rotation": [-30, 0, 0]},
+				"jaw": {"rotation": [40, 0, 0]},
+				"body": {"rotation": [-10, 0, 0]},
+				"chest": {"rotation": [-8, 0, 0], "scale": ["1.05 + math.sin(query.anim_time * 720) * 0.05", "1.05 + math.sin(query.anim_time * 720) * 0.05", "1.05 + math.sin(query.anim_time * 720) * 0.05"]},
+				"right_arm": {"rotation": [-40, 0, 55]},
+				"left_arm": {"rotation": [-40, 0, -55]},
+				"right_forearm": {"rotation": [-35, 0, 0]},
+				"left_forearm": {"rotation": [-35, 0, 0]},
+				"tail": {"rotation": [-60, "math.sin(query.anim_time * 720) * 20", 0]}
+			}
+		},
+		"animation.wrath_lord.stagger": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"head": {"rotation": ["25 + math.sin(query.anim_time * 240) * 10", "math.sin(query.anim_time * 120) * 18", "math.sin(query.anim_time * 180) * 10"]},
+				"jaw": {"rotation": [18, 0, 0]},
+				"body": {"rotation": ["40 + math.sin(query.anim_time * 240) * 6", 0, "math.sin(query.anim_time * 120) * 8"]},
+				"right_arm": {"rotation": [20, 0, 30]},
+				"left_arm": {"rotation": [20, 0, -30]},
+				"right_forearm": {"rotation": [-5, 0, 0]},
+				"left_forearm": {"rotation": [-5, 0, 0]},
+				"root": {"position": [0, -2, 0]}
+			}
+		},
+		"animation.wrath_lord.dormant": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"root": {"position": [0, -8, 0]},
+				"right_thigh": {"rotation": [-80, 0, 10]},
+				"left_thigh": {"rotation": [-80, 0, -10]},
+				"right_shin": {"rotation": [110, 0, 0]},
+				"left_shin": {"rotation": [110, 0, 0]},
+				"right_foot": {"rotation": [-30, 0, 0]},
+				"left_foot": {"rotation": [-30, 0, 0]},
+				"body": {"rotation": [42, 0, 0]},
+				"head": {"rotation": [30, 0, 0]},
+				"neck": {"rotation": [10, 0, 0]},
+				"jaw": {"rotation": [2, 0, 0]},
+				"right_arm": {"rotation": [-30, 0, 20]},
+				"left_arm": {"rotation": [-30, 0, -20]},
+				"right_forearm": {"rotation": [-50, 0, 0]},
+				"left_forearm": {"rotation": [-50, 0, 0]},
+				"chest": {"scale": ["1 + math.sin(query.anim_time * 45) * 0.015", "1 + math.sin(query.anim_time * 45) * 0.015", "1 + math.sin(query.anim_time * 45) * 0.015"]},
+				"tail": {"rotation": [10, 25, 0]}
+			}
+		}
+	}
+}

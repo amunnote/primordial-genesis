@@ -1,0 +1,1 @@
+{"name":"配方誊抄","icon":"primordial:alchemy_recipe","category":"primordial:known","sortnum":3,"advancement":"primordial:known/alchemy_recipe_copy","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:alchemy_recipe","link_recipe":false,"text":"$(l)炼制$()：基础炼金仪 ×2$(br)$(l)主材料$()：炼金配方$(br2)$(l)其他材料$()$(li)纸 ×1$(li)墨囊 ×1$(li)羽毛 ×1$(li)炼金源质 ×2"}]}

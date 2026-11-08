@@ -1,0 +1,1 @@
+{"name":"懒惰","icon":"primordial:stasis_crystal_marrow","category":"primordial:boss_affixes","sortnum":2,"advancement":"primordial:affix/sloth","pages":[{"type":"patchouli:text","text":"$(#9294ba)【懒惰】$()$(br2)受到的伤害减半；命中你时使你缓慢 5 秒。"},{"type":"patchouli:spotlight","item":"primordial:stasis_crystal_marrow","link_recipe":false,"text":"$(l)掉落素材$()$(br2)$(o)抑制附近的运动与能量变化。$()"}]}

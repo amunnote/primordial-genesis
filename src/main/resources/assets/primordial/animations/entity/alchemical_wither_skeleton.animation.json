@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.alchemical_wither_skeleton.idle": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"chest": {"rotation": ["math.sin(query.anim_time * 90) * 2", 0, 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 60) * 3", 0, "math.sin(query.anim_time * 45) * 5"]},
+				"jaw": {"rotation": ["6 + math.sin(query.anim_time * 500) * 5", 0, 0]},
+				"right_arm": {"rotation": ["math.sin(query.anim_time * 90) * 4", 0, 0]},
+				"left_arm": {"rotation": ["math.sin(query.anim_time * 90 + 180) * 4", 0, 0]},
+				"right_pauldron": {"position": [0, "0.8 + math.sin(query.anim_time * 90) * 0.5", 0]},
+				"left_pauldron": {"position": [0, "0.8 + math.sin(query.anim_time * 90 + 180) * 0.5", 0]},
+				"cape": {"rotation": ["math.sin(query.anim_time * 90) * 4", 0, 0]}
+			}
+		},
+		"animation.alchemical_wither_skeleton.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_thigh": {"rotation": ["math.sin(query.anim_time * 360) * 28", 0, 0]},
+				"left_thigh": {"rotation": ["math.sin(query.anim_time * 360 + 180) * 28", 0, 0]},
+				"right_shin": {"rotation": ["10 + math.sin(query.anim_time * 360 + 90) * 18", 0, 0]},
+				"left_shin": {"rotation": ["10 + math.sin(query.anim_time * 360 + 270) * 18", 0, 0]},
+				"right_arm": {"rotation": ["math.sin(query.anim_time * 360 + 180) * 22", 0, 0]},
+				"left_arm": {"rotation": ["-10 + math.sin(query.anim_time * 360) * 16", 0, 0]},
+				"chest": {"rotation": ["4 + math.sin(query.anim_time * 720) * 3", "math.sin(query.anim_time * 360) * 5", 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 720 + 90) * 4", 0, 0]},
+				"cape": {"rotation": ["16 + math.sin(query.anim_time * 720) * 8", 0, 0]},
+				"right_pauldron": {"position": [0, "0.8 + math.sin(query.anim_time * 720) * 0.4", 0]},
+				"left_pauldron": {"position": [0, "0.8 + math.sin(query.anim_time * 720 + 90) * 0.4", 0]}
+			}
+		},
+		"animation.alchemical_wither_skeleton.attack": {
+			"animation_length": 0.45,
+			"bones": {
+				"right_arm": {"rotation": {"0": [0, 0, 0], "0.15": [-140, 20, 0], "0.3": [-20, -10, 0], "0.45": [0, 0, 0]}},
+				"left_arm": {"rotation": {"0": [0, 0, 0], "0.2": [-60, -30, 0], "0.45": [0, 0, 0]}},
+				"chest": {"rotation": {"0": [0, 0, 0], "0.15": [-8, 15, 0], "0.3": [10, -15, 0], "0.45": [0, 0, 0]}},
+				"jaw": {"rotation": {"0": [0, 0, 0], "0.12": [30, 0, 0], "0.4": [0, 0, 0]}}
+			}
+		},
+		"animation.alchemical_wither_skeleton.aim": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_arm": {"rotation": [-90, -8, 0]},
+				"left_arm": {"rotation": [-90, 28, 0]},
+				"right_forearm": {"rotation": [0, 0, 0]},
+				"left_forearm": {"rotation": [0, 0, 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 720) * 1", 0, 0]}
+			}
+		}
+	}
+}

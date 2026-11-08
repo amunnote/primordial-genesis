@@ -1,0 +1,17 @@
+{
+  "name": "引雷符",
+  "icon": "primordial:thunder_talisman",
+  "category": "primordial:known",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:thunder_talisman",
+      "link_recipe": false,
+      "text": "一级炼金祭坛：主材为纸，辅材为纸与蛟雷须；需习得引雷符知识。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "纸与蛟雷须合成。右键指向 32 格内方块召唤真实闪电，消耗一张，冷却 5 秒。生生鹿茸可对作物使用五次；成年青角鹿每 20 分钟自然脱落一枚。"
+    }
+  ]
+}

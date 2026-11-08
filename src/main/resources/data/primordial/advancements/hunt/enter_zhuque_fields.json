@@ -1,0 +1,23 @@
+{
+  "parent": "primordial:hunt/trunk_root",
+  "display": {
+    "icon": {
+      "item": "primordial:sunset_wutong_log"
+    },
+    "title": {
+      "translate": "advancements.primordial.hunt.enter_zhuque_fields.title"
+    },
+    "description": {
+      "translate": "advancements.primordial.hunt.enter_zhuque_fields.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "earned": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

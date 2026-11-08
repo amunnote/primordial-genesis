@@ -1,0 +1,13 @@
+{
+  "name": "Fine Gold Ingot",
+  "icon": "primordial:fine_gold_ingot",
+  "category": "primordial:known",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:fine_gold_ingot",
+      "link_recipe": false,
+      "text": "Tier-one altar: one iron ingot as main material and four fine gold shards as ingredients. Requires Fine Gold Ingot knowledge. Wraiths drop the shards."
+    }
+  ]
+}

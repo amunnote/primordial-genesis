@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"primordial:alchemy_recipe"},"title":{"translate":"advancements.primordial.known.root.title"},"description":{"translate":"advancements.primordial.known.root.description"},"background":"minecraft:textures/block/bookshelf.png","frame":"task","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"known":{"trigger":"minecraft:impossible"}}}

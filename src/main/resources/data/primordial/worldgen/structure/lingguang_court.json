@@ -1,0 +1,7 @@
+{
+  "type": "primordial:lingguang_court",
+  "biomes": "#primordial:has_structure/lingguang_court",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

@@ -1,0 +1,1 @@
+{"type":"primordial:altar","knowledge":"primordial:alchemy_recipe_copy","tier":1,"main":{"item":"primordial:alchemy_recipe"},"ingredients":[{"item":"minecraft:paper"},{"item":"minecraft:ink_sac"},{"item":"minecraft:feather"},{"item":"primordial:alchemical_essence","count":2}],"copy_main":2,"result":{"item":"primordial:alchemy_recipe","count":2}}

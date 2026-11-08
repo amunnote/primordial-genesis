@@ -1,0 +1,1 @@
+{"name":"真理炼金仪","icon":"primordial:truth_alchemy_altar","category":"primordial:known","sortnum":2,"advancement":"primordial:known/truth_alchemy_altar","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:truth_alchemy_altar","link_recipe":false,"text":"$(l)炼制$()：工作台$(br2)$(l)材料$()$(li)原初宝石粉 ×2$(li)真理源质 ×1$(li)哭泣的黑曜石 ×3$(li)嬗变炼金仪 ×1"}]}

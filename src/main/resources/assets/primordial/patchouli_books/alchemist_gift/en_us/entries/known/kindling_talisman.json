@@ -1,0 +1,13 @@
+{
+  "name": "Kindling Talisman",
+  "icon": "primordial:kindling_talisman",
+  "category": "primordial:known",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:kindling_talisman",
+      "link_recipe": false,
+      "text": "Tier-one altar: paper as main material and an ember feather as ingredient; requires Kindling Talisman knowledge. Aim at a block within 32 blocks and use to place one fire on its adjacent face. Consumes one, 3-second cooldown. Ember Fluff is a material for future uses."
+    }
+  ]
+}

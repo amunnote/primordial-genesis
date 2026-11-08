@@ -1,0 +1,1 @@
+{"type":"primordial:altar","tier":2,"main":{"item":"primordial:transmutation_source"},"ingredients":[{"type":"forge:nbt","item":"primordial:recipe_fragment","nbt":"{\"primordial:tier\":2}","count":7}],"result":{"item":"primordial:mystery_recipe","nbt":"{\"primordial:tier\":2}"}}

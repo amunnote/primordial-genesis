@@ -1,0 +1,23 @@
+{
+  "name": "The Four Lands",
+  "icon": "primordial:qinglong_sigil",
+  "category": "primordial:world",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Courts and Territories",
+      "text": "Each world has one court for each guardian: Qinglong to the east, Baihu west, Zhuque south and Xuanwu north, 1600 to 3200 blocks from spawn. The places are chosen when the world is made and kept in the save, so they never move; an old world keeps them clear of what it has already generated. Some 176 blocks round each court are always its own biome.$(br2)Beyond the courts the four lands lie in wide $(l)territories$(): about half of all 2560-block cells hold one, 1000 to 1500 blocks across. Cold seas go to Xuanwu; land goes to the other three by lot. None lies within 1200 blocks of spawn. The numbers can be changed in primordial-world.toml."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Airs of the Lands",
+      "text": "Each land changes how fights go inside it:$(li)$(l)Thunder Grove$(): a player who is not hungry heals half a heart every 10 seconds; in rain, lightning flashes through the grove$(li)$(l)Blade Wastes$(): every melee blow is 15% heavier, yours and the monsters' alike$(li)$(l)Sun Fields$(): a melee hit has a 1 in 7 chance to set the target alight for 3 seconds, and no one there freezes$(li)$(l)Tide Sea$(): under water your breath runs out twice as fast, unless water breathing or a conduit holds it"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Shrines",
+      "text": "Small ruins lie scattered through the four lands, each with a chest of that land's spoils:$(li)Qinglong: a thunder altar, a ring of weathered copper rods$(li)Baihu: a sword grave, broken blades round a cairn$(li)Zhuque: a fire altar, campfires at the corners of a red dais$(li)Xuanwu: a sunken shrine, a prismarine room on the sea floor"
+    }
+  ]
+}

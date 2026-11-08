@@ -1,0 +1,118 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+version = mod_version
+group = 'local.primordial'
+base { archivesName = 'primordial-genesis-forge-1.20.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+if (project.hasProperty('smoke')) {
+    sourceSets.main.java.srcDir 'src/smoke/java'
+    sourceSets.main.resources.srcDir 'src/smoke/resources'
+}
+if (project.hasProperty('clientSmoke')) sourceSets.main.java.srcDir 'src/client-smoke/java'
+// -PshotScript: a dev-only client hook that runs automation/script.txt (commands, waits, screenshots) without touching the OS keyboard
+if (project.hasProperty('shotScript')) sourceSets.main.java.srcDir 'src/shot/java'
+if (project.hasProperty('alchemyClientSmoke')) sourceSets.main.java.srcDir 'src/alchemy-client-smoke/java'
+if (project.hasProperty('newAffixClientSmoke')) sourceSets.main.java.srcDir 'src/new-affix-client-smoke/java'
+if (project.hasProperty('affixSmoke')) {
+    sourceSets.main.java.srcDir 'src/affix-smoke/java'
+    sourceSets.main.resources.srcDir 'src/affix-smoke/resources'
+}
+if (project.hasProperty('alchemySmoke')) {
+    sourceSets.main.java.srcDir 'src/alchemy-smoke/java'
+    sourceSets.main.resources.srcDir 'src/alchemy-smoke/resources'
+}
+if (project.hasProperty('newAffixSmoke')) {
+    sourceSets.main.java.srcDir 'src/new-affix-smoke/java'
+    sourceSets.main.resources.srcDir 'src/new-affix-smoke/resources'
+}
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    copyIdeResources = true
+    runs {
+        configureEach {
+            args '--mixin.config', 'primordial.mixins.json'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${project.buildDir}/createSrgToMcp/output.srg"
+            mods { primordial { source sourceSets.main } }
+        }
+        client {
+            workingDirectory project.file(project.hasProperty('newAffixClientSmoke') ? 'run-new-affix-client' : 'run-client')
+            // -PquickPlay=<save folder> opens that singleplayer world straight away
+            if (project.hasProperty('quickPlay')) args '--quickPlaySingleplayer', project.property('quickPlay')
+            // -PquickServer=<host:port> joins that server straight away (localhost:25565 for runServer)
+            if (project.hasProperty('quickServer')) args '--quickPlayMultiplayer', project.property('quickServer')
+        }
+        server { workingDirectory project.file('run-server'); args '--nogui' }
+        gameTestServer {
+            workingDirectory project.file(project.hasProperty('newAffixSmoke') ? 'run-new-affix-gametest' : project.hasProperty('alchemySmoke') ? 'run-alchemy-gametest' : project.hasProperty('affixSmoke') ? 'run-affix-gametest' : 'run-gametest')
+            property 'forge.enabledGameTestNamespaces', project.hasProperty('newAffixSmoke') ? 'angel_new_affix' : project.hasProperty('alchemySmoke') ? 'angel_alchemy' : project.hasProperty('affixSmoke') ? 'angel_affix' : 'primordial'
+        }
+    }
+}
+repositories {
+    flatDir { dirs 'tools'; content { includeGroup 'local.compat' } }
+    maven { url = 'https://maven.theillusivec4.top/'; content { excludeGroup 'local.compat'; excludeGroup 'vazkii.patchouli'; excludeGroup 'software.bernie.geckolib' } }
+    maven { url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'; content { includeGroup 'software.bernie.geckolib' } }
+    maven { url = 'https://maven.blamejared.com/'; content { includeGroup 'mezz.jei'; includeGroup 'vazkii.patchouli' } }
+}
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
+    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}")
+    runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+    // animated alchemical creatures
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
+    // optional: the alchemist's gift opens its Patchouli book when Patchouli is installed
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-85-FORGE:api")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-85-FORGE")
+    if (project.hasProperty('watcherSmoke')) runtimeOnly fg.deobf('local.compat:BlackAndWhiteWorld:1.0.0')
+    // -PbwwBiomes (with -Pgeckolib_version=4.8.4): Black and White World, which wraps the overworld's biome source
+    if (project.hasProperty('bwwBiomes')) runtimeOnly fg.deobf('local.compat:BlackAndWhiteWorldSpawn:1.0.0')
+    annotationProcessor 'org.spongepowered:mixin:0.8.5'
+    annotationProcessor 'com.google.guava:guava:31.1-jre'
+    annotationProcessor 'com.google.code.gson:gson:2.10'
+    annotationProcessor 'org.ow2.asm:asm-tree:9.8'
+    annotationProcessor 'org.ow2.asm:asm-commons:9.8'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.register('createMixinSrg') {
+    dependsOn 'createMcpToSrg'
+    doLast {
+        net.minecraftforge.srgutils.IMappingFile.load(file("${project.buildDir}/createMcpToSrg/output.tsrg"))
+            .write(file("${project.buildDir}/mixin-mcp-to-srg.srg").toPath(), net.minecraftforge.srgutils.IMappingFile.Format.SRG, false)
+    }
+}
+// A @Shadow in a mixin on Minecraft's own classes keeps its dev name in the built jar (reobf does not rename it and the
+// refmap does not carry it), so the game fails to start outside the dev run. Such mixins use @Accessor / @Invoker instead.
+tasks.register('checkMixinShadows') {
+    def dir = file('src/main/java/local/primordial/mixin')
+    inputs.dir dir
+    doLast {
+        def bad = fileTree(dir).matching { include '**/*.java' }.files.findAll { f ->
+            def text = f.getText('UTF-8')
+            text.contains('@Shadow') && !(text =~ /remap\s*=\s*false/)
+        }
+        if (bad) throw new GradleException("@Shadow in remapped mixins (use @Accessor/@Invoker): " + bad*.name.join(', '))
+    }
+}
+tasks.named('compileJava', JavaCompile).configure {
+    dependsOn 'createMixinSrg'
+    dependsOn 'checkMixinShadows'
+    options.compilerArgs += [
+        "-AreobfSrgFile=${project.buildDir}/mixin-mcp-to-srg.srg",
+        "-AoutRefMapFile=${project.buildDir}/classes/java/main/primordial.refmap.json",
+        '-AdefaultObfuscationEnv=searge'
+    ]
+}
+tasks.named('processResources').configure {
+    inputs.property 'mod_version', project.version
+    filesMatching('META-INF/mods.toml') { expand mod_version: project.version }
+}
+tasks.named('jar', Jar).configure {
+    manifest { attributes 'MixinConfigs': 'primordial.mixins.json', 'Implementation-Version': project.version }
+    finalizedBy 'reobfJar'
+}

@@ -1,0 +1,52 @@
+{
+  "name": "四象生灵",
+  "icon": "primordial:bifang_flame_crystal",
+  "category": "primordial:world",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "primordial:bifang",
+      "name": "毕方",
+      "text": "赤霞梧桐原的稀有精英：独脚火鹤，80 生命、6 护甲，免疫火焰。64 格内只会有一只。啄击会点燃目标；每隔约 5 秒，它会向 4–14 格外的敌人连吐三发火球。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:bifang_flame_crystal",
+      "text": "毕方掉落 1–2 个（抢夺可增加）。$(br2)$(l)燃料$()：燃烧时间是一桶岩浆的两倍。$(br)$(l)投掷$()：右键扔出，落地爆开一圈火焰，3.5 格内（不含投掷者）6 伤害并点燃 5 秒，不会点燃方块。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "primordial:thunder_firefly",
+      "name": "雷萤",
+      "text": "夜晚和雨天在苍雷云林上空飘荡，尾部积蓄着雷光。不会伤人。对它使用玻璃瓶即可装进瓶中，得到萤雷瓶。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:thunder_firefly_bottle",
+      "text": "$(li)$(l)放置$()：对方块使用，放下一盏光照 12 的萤雷灯，偶尔闪出电火花$(li)$(l)投掷$()：右键扔出，瓶碎放电，2.5 格内（不含投掷者）4 伤害并缓慢 2 秒，雷萤随后飞走$(li)$(l)放生$()：潜行时使用，放出雷萤并取回玻璃瓶"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "primordial:golden_bell_sparrow",
+      "name": "鸣金雀",
+      "text": "肃金刃原上的白金色小雀，喉下挂着一枚小铃。受伤，或玩家不潜行靠近时，会摇响铃铛惊飞，滑翔到几格外落下。掉落 0–2 根金铃羽。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "primordial:whistling_arrow",
+      "text": "$(l)鸣镝$()：燧石、木棍、金铃羽合成 4 支。飞行时会发出哨声，并逐渐转向前方约 60° 锥形、16 格内最近的敌对生物，速度不会超过射出时。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "primordial:netherlamp_fish",
+      "name": "冥灯鱼",
+      "text": "玄潮甲海深处的暗色鱼，嘴前用细柄挂着一盏小灯。和普通鱼一样会逃跑，可以用水桶装起。必定掉落冥灯囊。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "primordial:netherlamp",
+      "text": "$(l)冥灯$()：八个铁粒围住一个冥灯囊。光照 15，可以在水下放置。拿在任意一只手上时，在水下获得夜视。"
+    }
+  ]
+}

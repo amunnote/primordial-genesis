@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "primordial:baihu_blade_wastes",
+    "#minecraft:is_overworld"
+  ]
+}

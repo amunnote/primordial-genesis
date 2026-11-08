@@ -1,0 +1,109 @@
+{
+   "spawn_costs" : {},
+   "carvers" : {
+      "air" : [
+         "minecraft:cave",
+         "minecraft:cave_extra_underground",
+         "minecraft:canyon"
+      ]
+   },
+   "features" : [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+         "primordial:coldjade_ore"
+      ],
+      [],
+      [
+         "primordial:turtleback_reef",
+         "primordial:tide_ice_spire",
+         "primordial:shell_rock_outcrop",
+         "primordial:shell_islet",
+         "primordial:ice_floe",
+         "primordial:jade_spires",
+         "primordial:sunken_shrine"
+      ],
+      [
+         "minecraft:seagrass_deep_cold",
+         "minecraft:kelp_cold"
+      ],
+      []
+   ],
+   "spawners" : {
+      "water_ambient" : [
+         {
+            "maxCount" : 4,
+            "weight" : 5,
+            "minCount" : 2,
+            "type" : "minecraft:cod"
+         },
+         {
+            "weight" : 12,
+            "maxCount" : 4,
+            "type" : "primordial:netherlamp_fish",
+            "minCount" : 2
+         }
+      ],
+      "monster" : [
+         {
+            "maxCount" : 2,
+            "weight" : 12,
+            "minCount" : 1,
+            "type" : "primordial:xuan_serpent"
+         }
+      ],
+      "water_creature" : [
+         {
+            "maxCount" : 2,
+            "weight" : 1,
+            "minCount" : 1,
+            "type" : "minecraft:dolphin"
+         }
+      ],
+      "creature" : [
+         {
+            "minCount" : 1,
+            "type" : "primordial:coldjade_turtle",
+            "weight" : 3,
+            "maxCount" : 2
+         }
+      ]
+   },
+   "effects" : {
+      "particle" : {
+         "options" : {
+            "type" : "minecraft:snowflake"
+         },
+         "probability" : 0.005
+      },
+      "grass_color" : 14326329,
+      "foliage_color" : 15234354,
+      "water_color" : 1060681,
+      "mood_sound" : {
+         "tick_delay" : 6000,
+         "offset" : 2,
+         "block_search_extent" : 8,
+         "sound" : "minecraft:ambient.cave"
+      },
+      "fog_color" : 1652302,
+      "water_fog_color" : 464166,
+      "additions_sound" : {
+         "tick_chance" : 0.002,
+         "sound" : "minecraft:ambient.underwater.loop.additions.rare"
+      },
+      "music" : {
+         "min_delay" : 12000,
+         "replace_current_music" : false,
+         "sound" : "minecraft:music.overworld.frozen_peaks",
+         "max_delay" : 24000
+      },
+      "sky_color" : 2706800
+   },
+   "temperature" : -0.5,
+   "has_precipitation" : true,
+   "downfall" : 0.5
+}

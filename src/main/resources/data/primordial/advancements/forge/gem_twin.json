@@ -1,0 +1,1 @@
+{"parent":"primordial:forge/gem_sword","display":{"icon":{"item":"primordial:divinity_shard"},"title":{"translate":"advancements.primordial.forge.gem_twin.title"},"description":{"translate":"advancements.primordial.forge.gem_twin.description"},"frame":"challenge","show_toast":true,"announce_to_chat":true,"hidden":false},"criteria":{"earned":{"trigger":"minecraft:impossible"}}}

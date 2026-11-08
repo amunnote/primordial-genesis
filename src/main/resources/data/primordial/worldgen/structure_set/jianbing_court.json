@@ -1,0 +1,13 @@
+{
+  "structures": [
+    {
+      "structure": "primordial:jianbing_court",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "primordial:guardian_seat",
+    "salt": 87213642,
+    "seat": "baihu"
+  }
+}

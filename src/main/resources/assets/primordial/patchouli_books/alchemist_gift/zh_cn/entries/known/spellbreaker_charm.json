@@ -1,0 +1,1 @@
+{"name":"护符-破法之理","icon":"primordial:spellbreaker_charm","category":"primordial:known","sortnum":7,"advancement":"primordial:known/spellbreaker_charm","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:spellbreaker_charm","link_recipe":false,"text":"$(l)炼制$()：基础炼金仪$(br)$(l)主材料$()：基础护符$(br2)$(l)其他材料$()$(li)腐肉 ×3$(li)蜘蛛眼 ×4"}]}

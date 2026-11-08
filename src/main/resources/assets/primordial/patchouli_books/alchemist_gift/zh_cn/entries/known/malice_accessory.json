@@ -1,0 +1,1 @@
+{"name":"词条饰品-恶念之刺","icon":"primordial:malice_accessory","category":"primordial:known","sortnum":26,"advancement":"primordial:known/malice_accessory","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:malice_accessory","link_recipe":false,"text":"攻击命中时 20% 概率为目标添加恶意 5 秒：带恶意的生物成为周围怪物的优先攻击目标$(br2)$(l)其他材料$()$(li)恶念赤铜刺 ×1$(li)炼金源锭 ×2$(li)蜘蛛眼 ×1"}]}

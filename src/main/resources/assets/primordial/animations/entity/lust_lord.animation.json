@@ -1,0 +1,119 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.lust_lord.idle": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"root": {"position": [0, "3 + math.sin(query.anim_time * 120) * 1.2", 0]},
+				"right_wing": {"rotation": [0, "-25 + math.sin(query.anim_time * 240) * 18", 0]},
+				"left_wing": {"rotation": [0, "25 + math.sin(query.anim_time * 240) * 18", 0]},
+				"right_wing_low": {"rotation": [0, "-20 + math.sin(query.anim_time * 240 + 30) * 14", 0]},
+				"left_wing_low": {"rotation": [0, "20 + math.sin(query.anim_time * 240 + 30) * 14", 0]},
+				"skirt": {"rotation": ["math.sin(query.anim_time * 120) * 3", 0, 0]},
+				"skirt1": {"rotation": ["math.sin(query.anim_time * 120 + 40) * 4", 0, 0]},
+				"skirt2": {"rotation": ["math.sin(query.anim_time * 120 + 80) * 5", 0, 0]},
+				"hair": {"rotation": ["6 + math.sin(query.anim_time * 120) * 4", 0, 0]},
+				"hair1": {"rotation": ["4 + math.sin(query.anim_time * 120 + 40) * 6", 0, 0]},
+				"hair2": {"rotation": ["4 + math.sin(query.anim_time * 120 + 80) * 8", 0, 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 60) * 3", "math.sin(query.anim_time * 40) * 8", "math.sin(query.anim_time * 60) * 4"]},
+				"right_arm": {"rotation": ["-15 + math.sin(query.anim_time * 120) * 4", 0, 10]},
+				"right_forearm": {"rotation": [-40, 0, 0]},
+				"left_arm": {"rotation": ["-10 + math.sin(query.anim_time * 120 + 90) * 4", 0, -14]},
+				"left_forearm": {"rotation": [-50, 0, 0]},
+				"petals": {"rotation": [0, "query.anim_time * 30", 0], "position": [0, "math.sin(query.anim_time * 60) * 1.5", 0]},
+				"veil": {"rotation": ["10 + math.sin(query.anim_time * 120) * 4", 0, 0]},
+				"right_sleeve": {"rotation": ["10 + math.sin(query.anim_time * 120) * 6", 0, 0]},
+				"left_sleeve": {"rotation": ["10 + math.sin(query.anim_time * 120 + 90) * 6", 0, 0]}
+			}
+		},
+		"animation.lust_lord.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"petals": {"rotation": [0, "query.anim_time * 90", 0]},
+				"veil": {"rotation": [30, 0, 0]},
+				"root": {"position": [0, "3 + math.sin(query.anim_time * 720) * 0.8", 0]},
+				"body": {"rotation": [12, 0, 0]},
+				"right_wing": {"rotation": [0, "-25 + math.sin(query.anim_time * 720) * 30", 0]},
+				"left_wing": {"rotation": [0, "25 + math.sin(query.anim_time * 720) * 30", 0]},
+				"right_wing_low": {"rotation": [0, "-20 + math.sin(query.anim_time * 720 + 30) * 24", 0]},
+				"left_wing_low": {"rotation": [0, "20 + math.sin(query.anim_time * 720 + 30) * 24", 0]},
+				"skirt": {"rotation": [20, 0, 0]},
+				"skirt1": {"rotation": ["12 + math.sin(query.anim_time * 720) * 6", 0, 0]},
+				"skirt2": {"rotation": ["12 + math.sin(query.anim_time * 720 + 60) * 8", 0, 0]},
+				"hair": {"rotation": [30, 0, 0]},
+				"hair1": {"rotation": ["18 + math.sin(query.anim_time * 720) * 8", 0, 0]},
+				"hair2": {"rotation": ["15 + math.sin(query.anim_time * 720 + 60) * 10", 0, 0]},
+				"right_arm": {"rotation": [-20, 0, 15]},
+				"left_arm": {"rotation": [20, 0, -15]}
+			}
+		},
+		"animation.lust_lord.attack": {
+			"animation_length": 0.5,
+			"bones": {
+				"right_arm": {"rotation": {"0": [-15, 0, 10], "0.2": [-150, 0, -20], "0.4": [-40, 0, 30], "0.5": [-15, 0, 10]}},
+				"body": {"rotation": {"0": [0, 0, 0], "0.2": [-8, -15, 0], "0.4": [10, 20, 0], "0.5": [0, 0, 0]}}
+			}
+		},
+		"animation.lust_lord.charm": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"left_arm": {"rotation": {"0": [-100, 30, 0], "0.4": [-120, 40, 0], "0.7": [-80, -10, -20], "1": [-100, 30, 0]}},
+				"left_forearm": {"rotation": [-90, 0, 0]},
+				"head": {"rotation": [-10, -10, 0]},
+				"body": {"rotation": [-6, 0, 0]},
+				"right_wing": {"rotation": [0, -55, 0]},
+				"left_wing": {"rotation": [0, 55, 0]}
+			}
+		},
+		"animation.lust_lord.cast": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_arm": {"rotation": [-165, 0, 10]},
+				"right_forearm": {"rotation": [0, 0, 0]},
+				"left_arm": {"rotation": [-60, 0, -50]},
+				"left_forearm": {"rotation": [-20, 0, 0]},
+				"head": {"rotation": [-20, 0, 0]},
+				"right_wing": {"rotation": [0, "-60 + math.sin(query.anim_time * 720) * 10", 0]},
+				"left_wing": {"rotation": [0, "60 + math.sin(query.anim_time * 720) * 10", 0]},
+				"right_wing_low": {"rotation": [0, -50, 0]},
+				"left_wing_low": {"rotation": [0, 50, 0]},
+				"root": {"position": [0, "5 + math.sin(query.anim_time * 720) * 0.6", 0]}
+			}
+		},
+		"animation.lust_lord.mirage": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"root": {"rotation": [0, "query.anim_time * 720", 0], "position": [0, 4, 0]},
+				"right_arm": {"rotation": [-90, 0, 60]},
+				"left_arm": {"rotation": [-90, 0, -60]},
+				"skirt1": {"rotation": [-20, 0, 0]},
+				"skirt2": {"rotation": [-30, 0, 0]},
+				"hair": {"rotation": [50, 0, 0]}
+			}
+		},
+		"animation.lust_lord.dormant": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"root": {"position": [0, "math.sin(query.anim_time * 60) * 0.5", 0]},
+				"right_wing": {"rotation": [0, -75, 0]},
+				"left_wing": {"rotation": [0, 75, 0]},
+				"right_wing_low": {"rotation": [0, -70, 0]},
+				"left_wing_low": {"rotation": [0, 70, 0]},
+				"head": {"rotation": [25, 0, 10]},
+				"body": {"rotation": [20, 0, 0]},
+				"right_arm": {"rotation": [-60, 30, 0]},
+				"left_arm": {"rotation": [-60, -30, 0]},
+				"right_forearm": {"rotation": [-60, 0, 0]},
+				"left_forearm": {"rotation": [-60, 0, 0]},
+				"skirt": {"rotation": [-10, 0, 0]},
+				"hair": {"rotation": [-10, 0, 0]}
+			}
+		}
+	}
+}

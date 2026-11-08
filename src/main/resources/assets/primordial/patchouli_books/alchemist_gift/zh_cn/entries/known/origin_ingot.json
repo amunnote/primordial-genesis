@@ -1,0 +1,1 @@
+{"name":"始源锭","icon":"primordial:origin_ingot","category":"primordial:known","sortnum":54,"advancement":"primordial:known/origin_ingot","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:origin_ingot","link_recipe":false,"text":"$(l)炼制$()：真理炼金仪$(br)$(l)主材料$()：始源宝珠$(br2)$(l)其他材料$()$(li)原初宝石粉 ×1$(li)下界合金锭 ×1"}]}

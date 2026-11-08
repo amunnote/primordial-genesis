@@ -1,0 +1,83 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.greed_lord.idle": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"hips": {"position": [0, "math.sin(query.anim_time * 120) * 0.4", 0]},
+				"head": {"rotation": ["-3 + math.sin(query.anim_time * 60) * 2", "math.sin(query.anim_time * 40) * 6", 0]},
+				"crown": {"rotation": [0, 0, "math.sin(query.anim_time * 60) * 1.5"]},
+				"cape": {"rotation": ["5 + math.sin(query.anim_time * 120) * 3", 0, 0]},
+				"cape1": {"rotation": ["4 + math.sin(query.anim_time * 120 + 40) * 4", 0, 0]},
+				"cape2": {"rotation": ["4 + math.sin(query.anim_time * 120 + 80) * 5", 0, 0]},
+				"sack": {"rotation": ["math.sin(query.anim_time * 120) * 6", 0, "math.sin(query.anim_time * 90) * 4"]}
+			}
+		},
+		"animation.greed_lord.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"hips": {"position": [0, "math.sin(query.anim_time * 720) * 1", 0]},
+				"body": {"rotation": ["4 + math.sin(query.anim_time * 720) * 3", 0, 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 720 + 90) * 3", 0, 0]},
+				"cape": {"rotation": ["16 + math.sin(query.anim_time * 720) * 6", 0, 0]},
+				"cape1": {"rotation": ["12 + math.sin(query.anim_time * 720 + 40) * 8", 0, 0]},
+				"cape2": {"rotation": ["10 + math.sin(query.anim_time * 720 + 80) * 10", 0, 0]},
+				"sack": {"rotation": ["math.sin(query.anim_time * 720) * 15", 0, 0]}
+			}
+		},
+		"animation.greed_lord.attack": {
+			"animation_length": 0.5,
+			"bones": {
+				"right_arm": {"rotation": {"0": [-50, 0, 10], "0.2": [-80, 0, 0], "0.35": [-95, 0, 0], "0.5": [-50, 0, 10]}},
+				"right_forearm": {"rotation": {"0": [-40, 0, 0], "0.2": [-60, 0, 0], "0.35": [0, 0, 0], "0.5": [-40, 0, 0]}},
+				"body": {"rotation": {"0": [0, 0, 0], "0.35": [14, -10, 0], "0.5": [0, 0, 0]}}
+			}
+		},
+		"animation.greed_lord.charge": {
+			"loop": true,
+			"animation_length": 0.6,
+			"bones": {
+				"body": {"rotation": [18, -8, 0]},
+				"head": {"rotation": [-12, 8, 0]},
+				"right_arm": {"rotation": [-80, 8, 10]},
+				"right_forearm": {"rotation": [-5, 0, 0]},
+				"left_arm": {"rotation": [-40, 0, -20]},
+				"cape": {"rotation": [50, 0, 0]},
+				"cape1": {"rotation": ["25 + math.sin(query.anim_time * 1200) * 10", 0, 0]},
+				"cape2": {"rotation": ["25 + math.sin(query.anim_time * 1200 + 60) * 14", 0, 0]},
+				"hips": {"position": [0, "math.sin(query.anim_time * 1200) * 1.6", 0]}
+			}
+		},
+		"animation.greed_lord.rain": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"left_arm": {"rotation": [-170, 0, -15]},
+				"left_forearm": {"rotation": [-5, 0, 0]},
+				"sack": {"rotation": ["180 + math.sin(query.anim_time * 720) * 25", 0, "math.sin(query.anim_time * 720 + 90) * 10"]},
+				"spill": {"position": [0, "-2 + math.sin(query.anim_time * 720) * 3", 0]},
+				"right_arm": {"rotation": [-120, 0, 25]},
+				"right_forearm": {"rotation": [-20, 0, 0]},
+				"head": {"rotation": [-25, 0, 0]},
+				"body": {"rotation": [-6, 0, 0]}
+			}
+		},
+		"animation.greed_lord.dormant": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"hips": {"position": [0, -1, 0]},
+				"body": {"rotation": [28, 0, 0]},
+				"head": {"rotation": [30, 0, 0]},
+				"right_arm": {"rotation": [-10, 0, 15]},
+				"left_arm": {"rotation": [-10, 0, -15]},
+				"right_forearm": {"rotation": [-20, 0, 0]},
+				"left_forearm": {"rotation": [-20, 0, 0]},
+				"cape": {"rotation": [8, 0, 0]},
+				"crown": {"rotation": ["6 + math.sin(query.anim_time * 30) * 2", 0, 0]}
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.alchemical_enderman.idle": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"head": {"rotation": ["math.sin(query.anim_time * 60) * 3", "math.sin(query.anim_time * 30) * 6", "math.sin(query.anim_time * 45) * 4"], "position": [0, "0.3 + math.sin(query.anim_time * 90) * 0.3", 0]},
+				"crown": {"rotation": [0, "query.anim_time * 90", 0], "position": [0, "math.sin(query.anim_time * 90 + 90) * 0.5", 0]},
+				"jaw": {"rotation": ["3 + math.sin(query.anim_time * 240) * 3", 0, 0]},
+				"right_arm": {"rotation": ["math.sin(query.anim_time * 60) * 3", 0, "math.sin(query.anim_time * 45) * 2"]},
+				"left_arm": {"rotation": ["math.sin(query.anim_time * 60 + 180) * 3", 0, "math.sin(query.anim_time * 45 + 180) * 2"]},
+				"right_blade": {"position": [0, "-0.6 + math.sin(query.anim_time * 90) * 0.5", 0]},
+				"left_blade": {"position": [0, "-0.6 + math.sin(query.anim_time * 90 + 180) * 0.5", 0]},
+				"robe_front": {"rotation": ["math.sin(query.anim_time * 90) * 3", 0, 0]},
+				"robe_back": {"rotation": ["math.sin(query.anim_time * 90 + 90) * 3", 0, 0]},
+				"body": {"rotation": ["math.sin(query.anim_time * 60) * 2", 0, 0]}
+			}
+		},
+		"animation.alchemical_enderman.walk": {
+			"loop": true,
+			"animation_length": 1.4,
+			"bones": {
+				"right_thigh": {"rotation": ["math.sin(query.anim_time * 257.143) * 22", 0, 0]},
+				"left_thigh": {"rotation": ["math.sin(query.anim_time * 257.143 + 180) * 22", 0, 0]},
+				"right_shin": {"rotation": ["8 + math.sin(query.anim_time * 257.143 + 90) * 14", 0, 0]},
+				"left_shin": {"rotation": ["8 + math.sin(query.anim_time * 257.143 + 270) * 14", 0, 0]},
+				"right_arm": {"rotation": ["math.sin(query.anim_time * 257.143 + 180) * 14", 0, 0]},
+				"left_arm": {"rotation": ["math.sin(query.anim_time * 257.143) * 14", 0, 0]},
+				"robe_front": {"rotation": ["-6 + math.sin(query.anim_time * 257.143) * 12", 0, 0]},
+				"robe_back": {"rotation": ["10 + math.sin(query.anim_time * 257.143 + 180) * 10", 0, 0]},
+				"body": {"rotation": ["math.sin(query.anim_time * 514.286) * 3", "math.sin(query.anim_time * 257.143) * 4", 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 514.286 + 90) * 4", "math.sin(query.anim_time * 257.143 + 180) * 5", 0]},
+				"crown": {"rotation": [0, "query.anim_time * 257.143", 0]}
+			}
+		},
+		"animation.alchemical_enderman.attack": {
+			"animation_length": 0.45,
+			"bones": {
+				"right_arm": {"rotation": {"0": [0, 0, 0], "0.15": [-140, 0, 10], "0.3": [-20, 0, -10], "0.45": [0, 0, 0]}},
+				"right_forearm": {"rotation": {"0": [0, 0, 0], "0.15": [-40, 0, 0], "0.3": [0, 0, 0], "0.45": [0, 0, 0]}},
+				"jaw": {"rotation": {"0": [0, 0, 0], "0.12": [25, 0, 0], "0.4": [0, 0, 0]}}
+			}
+		},
+		"animation.alchemical_enderman.carry": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_arm": {"rotation": [-40, 0, 0]},
+				"left_arm": {"rotation": [-40, 0, 0]},
+				"right_forearm": {"rotation": [-20, 0, 0]},
+				"left_forearm": {"rotation": [-20, 0, 0]}
+			}
+		},
+		"animation.alchemical_enderman.creepy": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"jaw": {"rotation": ["32 + math.sin(query.anim_time * 1440) * 4", 0, 0]},
+				"head": {"rotation": ["math.sin(query.anim_time * 1440) * 3", "math.sin(query.anim_time * 1080) * 4", "math.sin(query.anim_time * 1800) * 6"]},
+				"crown": {"rotation": [0, "query.anim_time * 1440", 0], "scale": [1.4, 1.4, 1.4], "position": [0, 1.5, 0]}
+			}
+		}
+	}
+}

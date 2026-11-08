@@ -1,0 +1,1 @@
+{"name":"魔法","icon":"primordial:arcane_crystal","category":"primordial:affixes","sortnum":8,"advancement":"primordial:affix/magic","pages":[{"type":"patchouli:text","text":"$(#62bcff)【魔法】$()$(br2)它的攻击转变为魔法伤害，无视护甲。$(br2)$(l)对应饰品$()：秘术坠饰，佩戴后无视这个词条。"},{"type":"patchouli:spotlight","item":"primordial:arcane_crystal","link_recipe":false,"text":"$(l)掉落素材$()$(br2)$(o)高度凝聚的纯净魔法结晶。$()"}]}

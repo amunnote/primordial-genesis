@@ -1,0 +1,1 @@
+{"name":"词条饰品-阈锁金符","icon":"primordial:damage_cap_accessory","category":"primordial:known","sortnum":19,"advancement":"primordial:known/damage_cap_accessory","secret":true,"pages":[{"type":"patchouli:spotlight","item":"primordial:damage_cap_accessory","link_recipe":false,"text":"单次受到的伤害不超过你最大生命值的 40%$(br2)$(l)其他材料$()$(li)阈锁金箔 ×1$(li)炼金源锭 ×2$(li)金锭 ×1"}]}

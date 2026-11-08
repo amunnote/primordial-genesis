@@ -1,0 +1,52 @@
+{
+  "name": "Creatures of the Four Lands",
+  "icon": "primordial:bifang_flame_crystal",
+  "category": "primordial:world",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "primordial:bifang",
+      "name": "Bifang",
+      "text": "The Sun Fields' rare elite: a one-legged fire crane, 80 health and 6 armor, untouched by fire. There is never more than one within 64 blocks. Its peck sets you alight, and every 5 seconds or so it breathes three fireballs at a foe 4 to 14 blocks off."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:bifang_flame_crystal",
+      "text": "A Bifang drops 1 to 2 (more with Looting).$(br2)$(l)Fuel$(): it burns twice as long as a bucket of lava.$(br)$(l)Thrown$(): right-click to throw it; where it lands a ring of flame bursts, 6 damage and five seconds alight to all within 3.5 blocks but you. It sets no blocks on fire."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "primordial:thunder_firefly",
+      "name": "Thunder Firefly",
+      "text": "It drifts over the Thunder Grove at night and in rain, its tail bright with stored lightning. It does no harm. Use a glass bottle on one to take it, and you have a Thunder Firefly Bottle."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:thunder_firefly_bottle",
+      "text": "$(li)$(l)Set down$(): use it on a block for a lamp of light 12 that now and then throws a spark$(li)$(l)Thrown$(): it shatters in a shock, 4 damage and two seconds of slowness to all within 2.5 blocks but you, and the firefly flies free$(li)$(l)Let go$(): use it while sneaking to free the firefly and keep the bottle"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "primordial:golden_bell_sparrow",
+      "name": "Golden-Bell Sparrow",
+      "text": "A small white-and-gold bird of the Blade Wastes with a bell at its throat. Hurt, or approached by a player who is not sneaking, it bursts up with a ring of its bell and glides down a few blocks off. It drops 0 to 2 Golden-Bell Feathers."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "primordial:whistling_arrow",
+      "text": "$(l)Whistling Arrows$(): flint, a stick and a Golden-Bell Feather make 4. In flight one whistles and bends toward the nearest hostile creature within 16 blocks in a cone of about 60 degrees ahead, never faster than it was shot."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "primordial:netherlamp_fish",
+      "name": "Netherlamp Fish",
+      "text": "A dark fish of the Tide Sea's depths with a lamp hung before its mouth on a stalk. It flees like any fish and can be taken in a water bucket. It always drops a Netherlamp Sac."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "primordial:netherlamp",
+      "text": "$(l)Netherlamp$(): eight iron nuggets round a Netherlamp Sac. A lantern of light 15 that can be placed under water. Held in either hand, it gives night vision under water."
+    }
+  ]
+}

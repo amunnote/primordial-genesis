@@ -1,0 +1,1 @@
+{"name":"贪婪","icon":"primordial:greed_gold_marrow","category":"primordial:boss_affixes","sortnum":1,"advancement":"primordial:affix/greed","pages":[{"type":"patchouli:text","text":"$(#f5a623)【贪婪】$()$(br2)每次命中随机偷取你 3% 的生命、攻击或护甲，战斗结束后归还。"},{"type":"patchouli:spotlight","item":"primordial:greed_gold_marrow","link_recipe":false,"text":"$(l)掉落素材$()$(br2)$(o)不断吸附附近的金属与能量。$()"}]}

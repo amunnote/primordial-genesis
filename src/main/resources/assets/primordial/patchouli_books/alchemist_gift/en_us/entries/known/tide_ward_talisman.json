@@ -1,0 +1,13 @@
+{
+  "name": "Tide Ward Talisman",
+  "icon": "primordial:tide_ward_talisman",
+  "category": "primordial:known",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "primordial:tide_ward_talisman",
+      "link_recipe": false,
+      "text": "Tier-one altar: paper + Xuan Scale; requires Tide Ward knowledge. Right-click consumes one for three minutes of Water Breathing and Night Vision on yourself."
+    }
+  ]
+}
